@@ -237,6 +237,11 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
+    public function actionBooking()
+    {
+        return $this->render('booking');
+    }
+
     /**
      * Resend verification email
      *
