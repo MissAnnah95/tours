@@ -51,7 +51,6 @@ AppAsset::register($this);
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
-    <!-- <?php echo $this->render   ('_footer')?> -->
 </div>
 
 <?php echo $this->render('_footer')?>
