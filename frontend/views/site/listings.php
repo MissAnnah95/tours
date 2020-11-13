@@ -1,3 +1,4 @@
+
 <div class="col-12">
   <h1> Deals and Discounts in African Tours</h1>
   <hr style="color:gray;background-color:gray">
