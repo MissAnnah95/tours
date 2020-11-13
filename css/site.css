@@ -1,99 +1,47 @@
 html,
 body {
-    height: 100%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
 }
 
-.wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
-}
+/* footer .container{
+    margin: 0;
+    padding: 0;
+} */
 
-.wrap > .container {
-    padding: 70px 15px 20px;
-}
-
-.footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
-}
-
-.jumbotron {
+#main{
     text-align: center;
-    background-color: transparent;
-}
+  }
 
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-}
+  .fof{
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-.not-set {
-    color: #c55;
-    font-style: italic;
-}
+  .fof span{
+    color: #6582A0;
+    font-weight: bolder;
+  }
 
-/* add sorting icons to gridview sort links */
-a.asc:after, a.desc:after {
-    position: relative;
-    top: 1px;
+  .fof h1{
+    font-size: 50px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    padding-left: 5px;
-}
+    animation: type .5s alternate infinite;
+  }
 
-a.asc:after {
-    content: "\e151";
-}
+  .fof h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
 
-a.desc:after {
-    content: "\e152";
-}
+  .fof p{
+    font-weight: lighter;
+  }
 
-.sort-numerical a.asc:after {
-    content: "\e153";
-}
 
-.sort-numerical a.desc:after {
-    content: "\e154";
-}
 
-.sort-ordinal a.asc:after {
-    content: "\e155";
-}
-
-.sort-ordinal a.desc:after {
-    content: "\e156";
-}
-
-.grid-view td {
-    white-space: nowrap;
-}
-
-.grid-view .filters input,
-.grid-view .filters select {
-    min-width: 50px;
-}
-
-.hint-block {
-    display: block;
-    margin-top: 5px;
-    color: #999;
-}
-
-.error-summary {
-    color: #a94442;
-    background: #fdf7f7;
-    border-left: 3px solid #eed3d7;
-    padding: 10px 20px;
-    margin: 0 0 15px 0;
-}
+/* end error page */
 
 /* align the logout "link" (button in form) of the navbar */
 .nav li > form > button.logout {
