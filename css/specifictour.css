@@ -1,0 +1,67 @@
+.styleimg{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+    .panel-title {
+        position: relative;
+      }
+        
+      .panel-title::after {
+          content: "\f107";
+          color: #333;
+          top: -2px;
+          right: 0px;
+          position: absolute;
+          font-family: "FontAwesome"
+      }
+      
+      .panel-title[aria-expanded="true"]::after {
+          content: "\f106";
+      }
+      .btn{
+
+        float:left;
+     }
+
+     h1 {
+        font-size: 40px;
+      }
+      
+      h2 {
+        font-size: 30px;
+      }
+      
+      p {
+        font-size: 14px;
+      }
+
+      b {
+        font-size: 14px;
+      }
+
+      .card-body{
+        font-size: 14px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+     
