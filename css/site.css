@@ -10,6 +10,39 @@ body {
     padding: 0;
 } */
 
+#main{
+    text-align: center;
+  }
+
+  .fof{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .fof span{
+    color: #6582A0;
+    font-weight: bolder;
+  }
+
+  .fof h1{
+    font-size: 50px;
+    display: inline-block;
+    animation: type .5s alternate infinite;
+  }
+
+  .fof h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .fof p{
+    font-weight: lighter;
+  }
+
+
+
+/* end error page */
+
 /* align the logout "link" (button in form) of the navbar */
 .nav li > form > button.logout {
     padding: 15px;
