@@ -22,6 +22,8 @@ AppAsset::register($this);
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <?php $this->head() ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="jquery.datetimepicker.min.css" rel="stylesheet"/>
