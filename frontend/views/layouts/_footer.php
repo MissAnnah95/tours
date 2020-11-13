@@ -53,7 +53,7 @@
                                     <i class="fa fa-map-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <h3>Kakhawa wemdani</h3>
+                                    <h3>Kahawa Wendani</h3>
                                     <p>Jakaranda Road 2</p>
                                 </div>
                             </div>
