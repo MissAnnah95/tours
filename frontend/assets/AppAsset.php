@@ -15,9 +15,11 @@ class AppAsset extends AssetBundle
         'css/footer.css',
         'css/site.css',
 
-        'css/custom.css'
+        'css/custom.css',
 
         'css/landing.css',
+
+        'css/specifictour.css',
 
     ];
     public $js = [
