@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=&v=weekly"defer></script>
-	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+    <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=&v=weekly" defer></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script>
+      function initMap() {
+        const kenya = { lat: -2.634830794, lng: 37.250498998 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: kenya,
+        });
+        const marker = new google.maps.Marker({
+          position: kenya,
+          map: map,
+        });
+      }
+    </script>
   </head>
 
   <body class="margin_bottom body">
@@ -50,9 +63,9 @@
 
               <div class="col-md-4 col-sm-6">
                 <p class="text-muted">10 Days</p>
-                <h3>Japan One Life Adventures - 10 Days</h3>
+                <h3>Kenya One Life Adventures - 10 Days</h3>
 
-                <p>From Tokyo to Osaka</p>
+                <p>From Tsavo to Amboseli</p>
 
               <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -197,23 +210,29 @@
             </div>
 
           </div>
-          <!--/.Third slide-->
-
+         </div>
         </div>
-        <!--/.Slides-->
-
       </div>
-      <!--/.Carousel Wrapper-->
-      </div>
+     </div>
+    </div>
+      </section>  
+      
+      <section>
+          <div class="container margin_top">
+            <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+              <h1>Map</h1>
+              <div id="map"></div>
             </div>
-      </div>
-      </section>   
+            </div>
+          </div>
+      </section>
       <section>
           <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Itinerary</h1>
-              <p>Start and end in Reykjavik! With the Polar tour Best of the Western Arctic: Canada and Greenland, you have a 20 days tour package taking you through Reykjavik, Iceland and 2 other destinations. Best of the Western Arctic: Canada and Greenland includes flights, an expert guide, meals, transport.</p>
+              <p>Start and end in Amboseli! With the Best of the Scenic Reserved Areas : Tsavo,Amboseli,Rift Valley, you have a 20 days tour package taking you through Amboseli, Mt. Kenyaand 2 other destinations. Best of the Western Arctic: Mombasa and Maasai mara includes flights, an expert guide, meals, transport.</p>
               <div>
               <div class="accordion" id="accordionExample">
         <div class="card">
