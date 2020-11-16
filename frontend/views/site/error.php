@@ -10,7 +10,7 @@ use yii\helpers\Html;
 $this->title = $name;
 ?>
 <div class="container error">
-<div class="card shadow-lg ml-5" style="width: 25rem; height:20rem;">
+<div class="card shadow-lg error-message" style="width: 25rem; height:20rem;">
   <div class="card-body" style="text-align: center;">
     <h1>Oppsy!!</h1>
     <h1 class="mb-2"><strong>404</strong></h1>
