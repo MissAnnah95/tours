@@ -1,7 +1,20 @@
 <?php
 
 ?>
-<div class="body">
+<div class="wrap">
+
+    <h1> Kenya Wildlife Safari </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="panel panel-default">
+                    <h2> 1. Review Your Dates </h2>
+                <div class="panel-body">Wednesday 11th November to Sunday 15th November<br><a href="#">Change Dates</a></br>
+                <div class="container mt-5 mb-5" style="width: 400px">
+                    <h3>Choose Date</h3>
+                    <input type="text" id="picker" class="form-control">
+                </div>
+
 <div class="wrap">
     <div class="container">
     <h1> Kenya Wildlife Safari </h1>
@@ -60,7 +73,7 @@
       </form> -->
     </div>
             <div class="col-8">
-                
+
                     <h2> 1. Review Your Dates </h2>
                     <div class="card  bg-light mb-3">
                 <div class="card-body"><h5>Your trip is from: <br></br>Wednesday 11th November to Sunday 15th November</h5><br><a href="#">Change Dates</a></br>
@@ -69,7 +82,7 @@
                     <div id="calendar"></div>
                     <div class="container">
   <div class="row">
-    
+
   </div>
   <br />
     <div class="row">
@@ -100,11 +113,20 @@
                         format: 'Y-m-d',
                         value: '2020-11-11'
                     })
-                </script> -->
+                </script>
+            <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-primary">Confirm dates</button>
+        </div>
+<<<<<<< HEAD
+                    </div>
+=======
+
             <div class="col-md-12 text-center">
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
                     </div>
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
     </div>
     </div>
     </div>
@@ -114,13 +136,35 @@
 
 <div class="container">
             <div class="row">
-                <div class="col-8">
-                    
-    
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+
+                    <h2> 2. Traveler Details </h2>
+                        <div class="panel-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <label>Full name</label>
+                                    <input class="form-control" placeholder="Full name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input class="form-control" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label>Contact</label>
+                                    <input class="form-control" placeholder="Phone number">
+                                </div>
+                                <div class="form-group">
+                                    <label>Nationality</label>
+                                    <input class="form-control" placeholder="Country">
+                                </div>
+<<<<<<< HEAD
+=======
                     <h2> 2. Traveler Details </h2>
                     <div class="card bg-light mb-3">
                         <div class="card-body">
-  
+
                             <form>
                                 <div class="form-group">
                                 <div class="col-10">
@@ -145,6 +189,7 @@
                                     <label>Nationality</label>
                                     <input class="form-control" placeholder="Country">
                                 </div>
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                 </div>
                                 <div class="col-md-12 text-center">
                                 <button type="submit" class="btn btn-primary">Add traveler</button>
@@ -159,6 +204,7 @@
 
         <div class="container">
             <div class="row">
+<<<<<<< HEAD
                 <div class="col-8">
                     
             <h2> 3. Payment </h2>
@@ -181,33 +227,67 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <label>Card Type</label> &nbsp;&nbsp; <i class="fa fa-cc-mastercard" aria-hidden="true"></i> &nbsp; 
+=======
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-cc-amex" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-google-wallet" aria-hidden="true"></i>
 
-                                    <input class="form-control"> 
+                                    <input class="form-control">
                                     </div>
 
                                 </div>
                                 <div class="form-group">
+<<<<<<< HEAD
                                     <div class="col-10">
+=======
+                                    <div class="col-8">
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <label>Card number</label>
                                     <input class="form-control" placeholder="Enter email">
                                     </div>
                                 </div>
                                 <div class="form-group">
+<<<<<<< HEAD
                                     <div class="col-10">
+=======
+                                    <div class="col-8">
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <label>CVV</label>
                                     <input class="form-control">
                                     </div>
-                                </div>    
+                                </div>
                                 <div class="form-group">
+<<<<<<< HEAD
                                     <div class="col-10">
+=======
+                                    <div class="col-8">
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <label>Country zip code</label>
                                     <input class="form-control" placeholder="zip code">
                                     </div>
                                 </div>
+<<<<<<< HEAD
                                 
+=======
+                                <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary">Confirm</button>
+                                                </div>
+                            </form>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       <div class="col-6"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div>
+
+
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                             </form>      </div>
                                         </div>
                                     </div>
@@ -264,20 +344,23 @@
                                         <label class="form-check-label" for="exampleCheck1">I accept Terms & Conditions and Privacy Policy; and Intrepid Travel's payment, cancellation and refund conditions, and Credit for Future Tours Terms & Conditions.</label>
                                     </div>
                                     <br></br>
-                                                                    <div class="col-12 text-centre"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div> 
+                                                                    <div class="col-12 text-centre"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div>
 
-                                                            </div>    
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                 
-        </div>
 
-
-
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
 >>>>>>> 58c874b (bookings page)
+=======
+        </div>
+
+
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 
 </div>

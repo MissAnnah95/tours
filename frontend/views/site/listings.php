@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 use yii\helpers\Url;
 ?>
+=======
+
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 <div class="col-12">
   <h1> Deals and Discounts in African Tours</h1>
   <hr style="color:gray;background-color:gray">

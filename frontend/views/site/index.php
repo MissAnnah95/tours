@@ -1,9 +1,11 @@
 <?php
 
 /* @var $this yii\web\View */
+use yii\helpers\Url;
 
 $this->title = 'Tours';
 ?>
+<<<<<<< HEAD
 <section class="container-fluid">
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -68,6 +70,56 @@ $this->title = 'Tours';
 
 <div class="container">
 <div class="row mb-4">
+=======
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://img.grouponcdn.com/deal/uiKjppB9Rh8VsqpjWtJu/cw-960x582/v1/c700x420.jpg" height="" width="" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>African Tour</h5>
+        <p>, nulla, tempore. Deserunt excepturi quas vero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://claudioustours.co.ke/wp-content/uploads/2020/04/African-Tours-Safaris.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Adventure In Africa</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tourradar.com/s3/content-pages/279/1024x460/ZFkGZ2.jpeg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Black is Beuty</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="search d-flex">
+  <div>
+  <div class="wrapper">
+		<input class="search" type="text" id="search" />
+  </div>
+</div>
+
+<div class="container">
+
+<div class="row mb-4 m-3">
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
   <div class="col-sm-4">
     <div class="card border-0">
       <div class="card-body">
@@ -153,8 +205,13 @@ $this->title = 'Tours';
           <hr class="my-4">
         </div>
           </div>
+<<<<<<< HEAD
         </div>
         </div>
+=======
+        </div>
+        </div>
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
       </div>
     </div>
   </div>
@@ -183,7 +240,7 @@ $this->title = 'Tours';
 <div class="card-body ">
   <div class="">
   <p class="card-text">While most countries in southern Africa are well developed and completely safe for tourism... </p>
-    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
     <i class="fa fa-share-alt text-muted float-right p-1 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
     <i class="fa fa-heart text-muted float-right p-1 my-1 mr-3" data-toggle="tooltip" data-placement="top" title="I like it"></i>
   </div>
@@ -206,7 +263,7 @@ $this->title = 'Tours';
 <div class="card-body">
   <div class="">
   <p class="card-text"> Don't travel to the Central African Republic because of crime and civil unrest. Violent crime – including armed robbery... </p>
-    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
     <i class="fa fa-share-alt text-muted float-right p-1 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
     <i class="fa fa-heart text-muted float-right p-1 my-1 mr-3" data-toggle="tooltip" data-placement="top" title="I like it"></i>
   </div>
@@ -214,46 +271,54 @@ $this->title = 'Tours';
 </div>
   </div>
 
+<<<<<<< HEAD
   <div class="col-md-5">
+=======
+  <div class="col-md-5 container">
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
   <div class="">
-  <div class="card shadow">
+  <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
+<<<<<<< HEAD
       <i class="fa fa-tools size"></i>
+=======
+      <i class="fa fa-wrench size"></i>
+>>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
       </div>
       <div class="col-8 container">
         <p>
         FAQ: Covid 19 and your travel plan
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
   <br>
-  <div class="card shadow">
+  <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
-        My name is dilas
+      <i class="fa fa-calendar size"></i>
       </div>
       <div class="col-8">
         <p>
         Discover booking with flexibility
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
   <br>
   <div class="card shadow">
     <div class="card-body d-flex">
-      <div class="col-4 ">
-        My name is dilas
+      <div class="col-4 " style="font-weight: 900;">
+      <i class="fas fa-headsets size"></i>
       </div>
       <div class="col-8">
         <p>
         Reach out 24/7 customer support.
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
