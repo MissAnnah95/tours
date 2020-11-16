@@ -132,3 +132,15 @@
 .blog .carousel-indicators .active {
 background: #707070;
 }
+
+
+.error {
+  /* height: 100vh; */
+  /* min-height: 300px; */
+  background-image: url(https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg) cover;
+  /* background: no-repeat center center scroll; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

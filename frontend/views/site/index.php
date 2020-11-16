@@ -146,9 +146,8 @@ $this->title = 'Tours';
                                     <div class="col-md-3 rounded">
                                         <a href="#">
                                         <img src="https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg" class="card-img-top h-100"
-                alt="sample photo">                                        </a>
-                <p style="position: absolute;">I am Sil</p>
-                
+                                          alt="sample photo">                                        </a>
+                                           <p style="position: absolute;">I am Sil</p>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
@@ -185,7 +184,7 @@ $this->title = 'Tours';
 <h4 class="card-title pb-2 font-weight-bold">Tour Sportlight</h4>
 <div class="row d-flex container d-sm-inline-flex">
 <div class="d-flex col-md-7 rounded">
-<div class="card col-md-6 m-2 shadow">
+<div class="card col-md-6 m-0 shadow">
 <div class="card-body d-flex flex-row rounded">
   <img src="https://scontent.fnbo7-1.fna.fbcdn.net/v/t1.0-9/69481371_1287279801449558_2147958632728231936_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=nGiZBYo7NM0AX8j0GeP&_nc_ht=scontent.fnbo7-1.fna&oh=a57c47cebf0f2c987402a49cbe676e35&oe=5FD028E9" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
   <div>
