@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this yii\web\View */
+use yii\helpers\Url;
 
 $this->title = 'Tours';
 ?>
@@ -183,7 +184,7 @@ $this->title = 'Tours';
 <div class="card-body ">
   <div class="">
   <p class="card-text">While most countries in southern Africa are well developed and completely safe for tourism... </p>
-    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
     <i class="fa fa-share-alt text-muted float-right p-1 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
     <i class="fa fa-heart text-muted float-right p-1 my-1 mr-3" data-toggle="tooltip" data-placement="top" title="I like it"></i>
   </div>
@@ -206,7 +207,7 @@ $this->title = 'Tours';
 <div class="card-body">
   <div class="">
   <p class="card-text"> Don't travel to the Central African Republic because of crime and civil unrest. Violent crime – including armed robbery... </p>
-    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+    <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
     <i class="fa fa-share-alt text-muted float-right p-1 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
     <i class="fa fa-heart text-muted float-right p-1 my-1 mr-3" data-toggle="tooltip" data-placement="top" title="I like it"></i>
   </div>
@@ -225,7 +226,7 @@ $this->title = 'Tours';
         <p>
         FAQ: Covid 19 and your travel plan
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
@@ -239,7 +240,7 @@ $this->title = 'Tours';
         <p>
         Discover booking with flexibility
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
@@ -253,7 +254,7 @@ $this->title = 'Tours';
         <p>
         Reach out 24/7 customer support.
         </p>
-        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="#">Read More </a>
+        <a class=" red-text p-1 my-1 mr-0 mml-1"  href="<?= Url::to(['site/listings'])?>">Read More </a>
       </div>
     </div>
   </div>
