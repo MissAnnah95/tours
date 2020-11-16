@@ -5,26 +5,16 @@ body {
     padding: 0;
     /* background: cyan; */
 }
-/*
-.nav li > form > button.logout {
-    padding: 15px;
-    border: none;
+
+ body{min-height:200vh;}
+.navbar-default{
+  transition:500ms ease;
+  /* background:transparent; */
+  background: red;
 }
 
-@media(max-width:767px) {
-    .nav li > form > button.logout {
-        display:block;
-        text-align: left;
-        width: 100%;
-        padding: 10px 15px;
-    }
-}
+.navbar-default.scrolled{
+    background:#000;
+  }
 
-.nav > li > form > button.logout:focus,
-.nav > li > form > button.logout:hover {
-    text-decoration: none;
-}
 
-.nav > li > form > button.logout:focus {
-    outline: none;
-} */
