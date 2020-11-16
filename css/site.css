@@ -3,66 +3,18 @@ body {
     /* height: 100%; */
     margin: 0;
     padding: 0;
+    /* background: cyan; */
 }
 
-/* footer .container{
-    margin: 0;
-    padding: 0;
-} */
-
-#main{
-    text-align: center;
-  }
-
-  .fof{
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  .fof span{
-    color: #6582A0;
-    font-weight: bolder;
-  }
-
-  .fof h1{
-    font-size: 50px;
-    display: inline-block;
-    animation: type .5s alternate infinite;
-  }
-
-  .fof h2{
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .fof p{
-    font-weight: lighter;
-  }
-
-
-
-/* end error page */
-
-/* align the logout "link" (button in form) of the navbar */
-.nav li > form > button.logout {
-    padding: 15px;
-    border: none;
+ body{min-height:200vh;}
+.navbar-default{
+  transition:500ms ease;
+  /* background:transparent; */
+  background: red;
 }
 
-@media(max-width:767px) {
-    .nav li > form > button.logout {
-        display:block;
-        text-align: left;
-        width: 100%;
-        padding: 10px 15px;
-    }
-}
+.navbar-default.scrolled{
+    background:#000;
+  }
 
-.nav > li > form > button.logout:focus,
-.nav > li > form > button.logout:hover {
-    text-decoration: none;
-}
 
-.nav > li > form > button.logout:focus {
-    outline: none;
-}

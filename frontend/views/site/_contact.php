@@ -3,14 +3,14 @@
   <div class="card-body pb-3">
     <div class="d-flex">
       <div class="">
-        <h4 class="card-title font-weight-bold">24/7 Customer Support</h4>
-        <p class="card-text">Our team of experienced tour
+        <h4 class="card-title font-weight-bold mb-2">24/7 Customer Support</h4>
+        <p class="card-text mb-2">Our team of experienced tour
            specialists have travelled to hundreds of countries
            around the Africa and have decades of first-hand
            travel experience to share. Contact us now to have
            all of your tour-related questions answered!
         </p>
-        <a href="#" class="p-2 w-50 btn btn-primary">Contact Us</a>
+        <a href="#" class="mt-2 p-2 w-50 btn btn-primary">Contact Us</a>
       </div>
   <div class="p-3 col-md-5 mr-0">
     <div class=" row ml-0">
@@ -31,7 +31,7 @@
       </div>
       <div class="mr-0">
         <div class="view overlay z-depth-1-half">
-        <img src="https://scontent.fnbo7-1.fna.fbcdn.net/v/t1.0-9/69481371_1287279801449558_2147958632728231936_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=nGiZBYo7NM0AX8j0GeP&_nc_ht=scontent.fnbo7-1.fna&oh=a57c47cebf0f2c987402a49cbe676e35&oe=5FD028E9" class="rounded-circle" height="70px" width="70px" alt="avatar">
+        <img src="https://ca.slack-edge.com/T01BQPPTQAU-U01AL6NQ755-172f2e805949-512" class="rounded-circle" height="70px" width="70px" alt="avatar">
         </div>
       </div>
     </div>

@@ -193,14 +193,6 @@
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
                     </div>
-                </script>
-            <div class="col-md-12 text-center">
-            <button type="button" class="btn btn-primary">Confirm dates</button>
-        </div>
-                    </div>
-    </div>
-    </div>
-    </div>
     </div>
 </div>
 
@@ -306,6 +298,7 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <label>Card Type</label> &nbsp;&nbsp; <i class="fa fa-cc-mastercard" aria-hidden="true"></i> &nbsp;
+
                 <div class="col-sm-6">
                     <div class="panel panel-default">
 
@@ -339,6 +332,7 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <div class="col-8">
+                                    <div class="col-8">
                                     <label>Card number</label>
                                     <input class="form-control" placeholder="Enter email">
                                     </div>
@@ -346,11 +340,14 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <div class="col-8">
+
+
                                     <label>CVV</label>
                                     <input class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
+
 
                                     <div class="col-10">
                                     <div class="col-8">
@@ -359,7 +356,6 @@
                                     <input class="form-control" placeholder="zip code">
                                     </div>
                                 </div>
-
                             </form>      </div>
                                         </div>
                                     </div>
