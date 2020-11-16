@@ -26,9 +26,12 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<div class="top-nav">
+ <p class="covid">Covid-20 news ...</p>
+</div>
 
 <div class="wrap">
-    <?php
+    <!-- <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
@@ -42,9 +45,9 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
     ]);
     NavBar::end();
-    ?>
+    ?> -->
 
-    <div class="container-fluid">
+    <div class="">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

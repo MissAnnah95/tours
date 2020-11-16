@@ -5,6 +5,15 @@
     border: none;
   }
 
+  .covid{
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+  }
+
+  .top-nav{
+    background: #000000;
+  }
 
 
        .product-discount-label, .product-new-label{
@@ -106,3 +115,8 @@ box-sizing: border-box; */
     background-color: #24355C;
   }
 }
+
+
+
+
+/* Navbar */
