@@ -26,9 +26,9 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-    <!-- <div class="top-nav">
+    <div class="top-nav">
     <p class="covid">Covid-20 news ...</p>
-    </div> -->
+    </div>
 <!--Navbar -->
 <nav class="mb-0 navbar navbar-expand-lg">
 <div class="view overlay z-depth-1-half">
