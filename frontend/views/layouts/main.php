@@ -22,7 +22,11 @@ AppAsset::register($this);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <?php $this->head() ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="jquery.datetimepicker.min.css" rel="stylesheet"/>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -91,7 +95,7 @@ AppAsset::register($this);
     </div>
 </div>
 
-<?php echo $this->render('_footer')?>
+<!-- <?php echo $this->render('_footer')?> -->
 
 <?php $this->endBody() ?>
 </body>

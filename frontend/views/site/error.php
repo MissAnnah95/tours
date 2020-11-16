@@ -5,23 +5,20 @@
 /* @var $message string */
 /* @var $exception Exception */
 
-use yii\helpers\Html;
+use yii\helpers\Url;
 
 $this->title = $name;
 ?>
-<div class="site-error">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
-    </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
-
+<body  class="error-page" style="background-image: url('images/dp.jpg');">
+<div class="card container mt-5"  id="main" >
+  <div class="card-body">
+  <div class="fof">
+	            <h2>OPPS!</h2>
+				<h1>Error 404</h1>
+				<p><span><a href="<?= Url::to(['/site/index'])?>" >African Tours</a></span>  Says This page does not exist !</p>
+    	</div>
+  </div>
+  <a href="<?= Url::to(['/site/index'])?>" style="background: #0A7BBD;" class="m-4 btn btn-success">Home</a>
 </div>
+</body>
+
