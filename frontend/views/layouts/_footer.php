@@ -117,10 +117,10 @@
                                 Don’t miss to subscribe to our new feeds, kindly fill the form below</p>
                                 <form action="#">
                                     <div class="form-row">
-                                        <div class="col dk-footer-form">
-                                            <input type="email" class="form-control" placeholder="Email Address">
+                                        <div class=" col dk-footer-form">
+                                            <input type="email" class="p-4 form-control" placeholder="Email Address">
                                             <button type="submit">
-                                                <i class="fa fa-send"></i>
+                                                <i class="fa fa-send p-0"></i>
                                             </button>
                                         </div>
                                     </div>
