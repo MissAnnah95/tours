@@ -295,7 +295,7 @@ p {
     padding: 0;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     background: #2e2e2e;
     border-color: #2e2e2e;
     display: none;
