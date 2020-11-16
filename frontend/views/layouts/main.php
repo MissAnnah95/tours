@@ -32,9 +32,11 @@ AppAsset::register($this);
 <!--Navbar -->
 <nav class="mb-0 navbar navbar-expand-lg">
 <div class="view overlay z-depth-1-half">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfz1dfY2oFcNNUBr4U47XAxeNaQgZlecucbg&usqp=CAU" class="" height="50px" width="50px" alt="avatar">
         </div>
-                <a class="navbar-brand logo font-bold" href="#">African<span class="">Tours</span></a>
+        <div style="float: left;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfz1dfY2oFcNNUBr4U47XAxeNaQgZlecucbg&usqp=CAU" class="" height="50px" width="50px" alt="avatar">
+        <a class="navbar-brand logo font-bold" href="#">African<span class="">Tours</span></a>
+        </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -4,7 +4,7 @@
 
 $this->title = 'Tours';
 ?>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide pb-3" data-ride="carousel" >
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -12,14 +12,14 @@ $this->title = 'Tours';
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://img.grouponcdn.com/deal/uiKjppB9Rh8VsqpjWtJu/cw-960x582/v1/c700x420.jpg" height="" width="" alt="First slide">
+      <img class="d-block w-100" src="https://www.synotrip.com/sites/default/files/styles/900x900/public/ecotrekking/12838464077.jpg?itok=_oVP6VyQ" height="" width="" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>African Tour</h5>
         <p>, nulla, tempore. Deserunt excepturi quas vero.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://claudioustours.co.ke/wp-content/uploads/2020/04/African-Tours-Safaris.jpg" alt="Second slide">
+      <img class="d-block w-100" src="https://p0.pikist.com/photos/793/968/cornfield-sunset-sugar-palm-silhouettes-evening-sun-rise-green-view-sun-rice.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Adventure In Africa</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
@@ -28,7 +28,7 @@ $this->title = 'Tours';
     <div class="carousel-item">
       <img class="d-block w-100" src="https://cdn.tourradar.com/s3/content-pages/279/1024x460/ZFkGZ2.jpeg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Black is Beuty</h5>
+        <h5>Black is Beauty</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
       </div>
     </div>
@@ -42,18 +42,32 @@ $this->title = 'Tours';
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="search d-flex">
-  <div>
-  <div class="wrapper">
-		<input class="search" type="text" id="search" />
-  </div>
+
+<div class="card shadow-sm d-flex" style="position: absolute; top:60%; align-content:center; left: 20%; width:50%; ">
+<form class="search pt-2">
+        <div class="form-group d-flex row p-2">
+
+            <!-- Left column -->
+            <div class="searchbar col-5">
+                <input type="dropdown" class="form-control p-4 fa-facebook" placeholder="Choose Destination...">
+            </div>
+
+
+            <!-- Right column -->
+            <div class="col-5">
+                <input type="date" class="form-control p-4">
+            </div>
+            <div class="col-2">
+            <a href="#" class="mt-2 p-2 w-3 btn btn-primary">Search</a>
+            </div>
+        </div>
+    </form>
 </div>
 
-<div class="container">
-
-<div class="row mb-4 m-3">
+<div class="container p-3 pt-lg-5">
+<div class="search row mb-4 m-3">
   <div class="col-sm-4">
-    <div class="card border-0">
+    <div class="card border-3">
       <div class="card-body">
         <div class="d-flex ">
         <i class="fa fa-send services-icon  p-1 my-1 mr-3"></i>
@@ -87,63 +101,40 @@ $this->title = 'Tours';
   </div>
 </div>
 
-
-<div class="container mt-5">
-<!--Section: Content-->
-<section class="dark-grey-text text-center mb-5">
-  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-    <!-- Controls -->
-    <div class="controls-top">
-    <a class="carousel-control-prev" href="##multi-item-example" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="##multi-item-example" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    </div>
-    <ol class="carousel-indicators mb-n3">
-      <li class="primary-color active" data-target="#multi-item-example" data-slide-to="0"></li>
-      <li class="primary-color" data-target="#multi-item-example" data-slide-to="1"></li>
-      <li class="primary-color" data-target="#multi-item-example" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="col-md-4 mb-2 shadow">
-          <div class="card card-cascade narrower card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg" class="card-img-top h-100"
+<!-- Carousel -->
+<div id="recipeCarousel" class="carousel slide w-100 container-fluid" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active view overlay z-depth-1-half shadow-lg ">
+                <img src="https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg" class="card-img-top h-100 view overlay z-depth-1-half"
                 alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=2">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=3">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=4">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=5">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=6">
+                </div>
             </div>
-            <div class="card-body align-content-left ">
-           <h4 class="card-title font-weight-bold"><a>East Africa</a></h4>
-           <ul class="list-unstyled list-inline rating mb-0">
-              <li class="list-inline-item mr-0"><i class="fa fa-star amber-text"> </i></li>
-              <li class="list-inline-item mr-0"><i class="fa fa-star amber-text"></i></li>
-              <li class="list-inline-item mr-0"><i class="fa fa-star amber-text"></i></li>
-              <li class="list-inline-item mr-0"><i class="fa fa-star amber-text"></i></li>
-              <li class="list-inline-item"><i class="fa fa-star-half text-amber"></i></li>
-              <li class="list-inline-item"><p class="text-muted">4.5 (413)</p></li>
-           </ul>
-           <div class="d-flex mr-4">
-           <p class="mb-2 text-muted mr-3">From</p>
-          <p class="card-text text-danger">Ksh. 3200</p>
-          <i class="fa fa-heart text-muted my-1 ml-5" data-toggle="tooltip" data-placement="top" title="I like it"></i>
-           </div>
-          <hr class="my-4">
+            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
+
+<!-- end -->
 
 <div class="container">
 <div class="mb-4">
@@ -364,4 +355,4 @@ $this->title = 'Tours';
 </div>
 
     <?php echo $this->render('_contact')?>
-</div>
+</div> -->

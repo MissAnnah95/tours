@@ -1,6 +1,4 @@
-
-
-  .card{
+.card{
     border-radius: 15px;
     border: none;
   }
@@ -11,6 +9,7 @@
     font-size: 15px;
     font-size: small;
     padding: 5px;
+    margin: 0 !important;
   }
 
   .top-nav{
@@ -44,7 +43,6 @@
 }
 
 
-
 .product-discount-label{
    background-color:#333;
    left:auto;right:0
@@ -55,10 +53,7 @@
     padding: 0;
    font-size: 500%;
    color: #E6F1F9;
-   /* font-weight: 900 */
-
 }
-
 
 
 .services{
@@ -85,48 +80,12 @@
   line-height: 28.13px;
 }
 
-/* bunnrer */
-
-.bunner {
-  background-image: url("https://res.cloudinary.com/mahlatini/image/upload/v1549290017/Safari%20Guide/Best%20Safari%20Tours/SA_Best_Page.png");
-    -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
-
-
- #intro {
-  background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.top-nav-collapse {
-  background-color: #24355C;
-}
-@media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #24355C;
-  }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #24355C;
-  }
-}
-
-
-
 
 /* Navbar */
 
-.carousel-item {
-  height: 80vh;
-  min-height: 300px;
+.carousel-items {
+  height: 50vh;
+  min-height: 150px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -134,7 +93,7 @@
   background-size: cover;
 }
 .carousel-caption {
-  bottom: 270px;
+  bottom: 20%;
 }
 
 .carousel-caption h5 {
@@ -142,6 +101,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
+  font-weight: bold;
 }
 
 .carousel-caption p {
@@ -152,3 +112,47 @@
 }
 
 
+
+/* Carasel */
+
+@media (min-width: 769px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%)
+  }
+
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left{
+    transform: translateX(0);
+  }
+
+  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+  }
+  }
+
+  @media (max-width: 768px) and (min-width: 480px){
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(50%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-50%)
+  }
+
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left{
+    transform: translateX(0);
+  }
+
+  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+  }
+  }
