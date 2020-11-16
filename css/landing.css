@@ -83,7 +83,7 @@
 
 /* Navbar */
 
-.carousel-items {
+ .carousel-item {
   height: 50vh;
   min-height: 150px;
   background: no-repeat center center scroll;
@@ -114,45 +114,21 @@
 
 
 /* Carasel */
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
 
-@media (min-width: 769px) {
-  .carousel-inner .carousel-item-right.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(33.33%);
-  }
+}
 
-  .carousel-inner .carousel-item-left.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-33.33%)
-  }
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
 
-  .carousel-inner .carousel-item-right,
-  .carousel-inner .carousel-item-left{
-    transform: translateX(0);
-  }
-
-  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
-    display: flex;
-  }
-  }
-
-  @media (max-width: 768px) and (min-width: 480px){
-  .carousel-inner .carousel-item-right.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(50%);
-  }
-
-  .carousel-inner .carousel-item-left.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-50%)
-  }
-
-  .carousel-inner .carousel-item-right,
-  .carousel-inner .carousel-item-left{
-    transform: translateX(0);
-  }
-
-  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
-    display: flex;
-  }
-  }
+.blog .carousel-indicators .active {
+background: #707070;
+}

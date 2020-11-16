@@ -13,56 +13,7 @@
 
 // another corasel
 
-function carouselClonesDelete(){
-  $('.carousel-item-clone').remove();
-}
 
-function carouselClone(){
-carouselClonesDelete();
-$('.carousel .carousel-item').each(function(){
-var next = $(this).next();
-if (!next.length) {
-next = $(this).siblings(':first');
-}
-next.children(':first-child').clone().addClass('carousel-item-clone').appendTo($(this));
-
-if (next.next().length>0) {
-next.next().children(':first-child').clone().addClass('carousel-item-clone').appendTo($(this));
-}
-else {
-$(this).siblings(':first').children(':first-child').clone().addClass('carousel-item-clone').appendTo($(this));
-}
+$('#blogCarousel').carousel({
+    interval: 3000
 });
-}
-
-if ($(window).width() < 480) {
-$('.carousel-item img').removeClass('col-4').removeClass('col-6');
-} else {
-carouselClone();
-if($(window).width() < 769){
-$('.carousel-item img').addClass('col-6').removeClass('col-4');
-} else {
-$('.carousel-item img').addClass('col-4').removeClass('col-6');
-}
-}
-
-$(window).on('resize', function(){
-if ($(window).width() < 480) {
-carouselClonesDelete();
-$('.carousel-item img').removeClass('col-4').removeClass('col-6');
-} else {
-carouselClone();
-if($(window).width() < 769){
-$('.carousel-item img').addClass('col-6').removeClass('col-4');
-} else {
-$('.carousel-item img').addClass('col-4').removeClass('col-6');
-}
-}
-$('#recipeCarousel').carousel({
-interval: 10000
-})
-});
-
-$('#recipeCarousel').carousel({
-interval: 10000
-})

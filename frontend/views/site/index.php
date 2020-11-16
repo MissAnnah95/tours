@@ -102,37 +102,81 @@ $this->title = 'Tours';
 </div>
 
 <!-- Carousel -->
-<div id="recipeCarousel" class="carousel slide w-100 container-fluid" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active view overlay z-depth-1-half shadow-lg ">
-                <img src="https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg" class="card-img-top h-100 view overlay z-depth-1-half"
-                alt="sample photo">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=2">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=3">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=4">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=5">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block col-4 img-fluid" src="http://placehold.it/350x180?text=6">
+<div class="row blog">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 rounded">
+                                        <a href="#">
+                                        <img src="https://sokodirectory.com/wp-content/uploads/2015/03/Tourism.jpg" class="card-img-top h-100"
+                alt="sample photo">                                        </a>
+                <p style="position: absolute;">I am Sil</p>
+                
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
 
 <!-- end -->
 
