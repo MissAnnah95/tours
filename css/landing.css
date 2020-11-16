@@ -8,17 +8,6 @@
   .covid{
     text-align: center;
     color: #fff;
-<<<<<<< HEAD
-    padding: 5px;
-  }
-
-  .top-nav{
-    background: #000000;
-  }
-
-
-       .product-discount-label, .product-new-label{
-=======
     /* padding: 5px; */
   }
 
@@ -30,7 +19,6 @@
 
 
 .product-discount-label, .product-new-label{
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
          color:#fff;
          background-color:#E74C3C;
          font-size:12px;
@@ -64,16 +52,6 @@
 .size{
     padding: 0;
    font-size: 500%;
-<<<<<<< HEAD
-   border: 3px solid #18A0FB;
-/*
-background: #E6F1F8;
-border: 3px solid #18A0FB;
-box-sizing: border-box; */
-}
-
-
-=======
    color: #E6F1F9;
    /* font-weight: 900 */
 
@@ -81,7 +59,6 @@ box-sizing: border-box; */
 
 
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 .services{
   font-family: Roboto;
   font-weight: bold;
@@ -94,11 +71,7 @@ box-sizing: border-box; */
   text-align: center;
   font-weight: 500;
   font-size: 30px;
-<<<<<<< HEAD
-  color:#18A0FB;
-=======
   color:#85C9E9;
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 
 }
 
@@ -147,9 +120,6 @@ box-sizing: border-box; */
 
 
 
-<<<<<<< HEAD
-/* Navbar */
-=======
 /* Navbar */
 
 .carousel-item {
@@ -180,4 +150,3 @@ box-sizing: border-box; */
 }
 
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7

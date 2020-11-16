@@ -5,72 +5,6 @@ use yii\helpers\Url;
 
 $this->title = 'Tours';
 ?>
-<<<<<<< HEAD
-<section class="container-fluid">
-  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <a href="#!">
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce4.jpg" alt="First slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class="h1-responsive red-text font-weight-bold mb-0">AFRICAN TOURS</p>
-              	</div>
-            	</div>
-          	</div>
-       		</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <a>
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce2.jpg" alt="Second slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class="h1-responsive indigo-text font  -weight-bold mb-0">Awesome Adventure in Africa!</p>
-              	</div>
-            	</div>
-          	</div>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <a>
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce3.jpg" alt="Third slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class=" orange-text font-weight-bold mb-0">Pure Enjoyment!</p>
-                </div>
-            	</div>
-          	</div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</section>
-
-<div class="container">
-<div class="row mb-4">
-=======
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -119,7 +53,6 @@ $this->title = 'Tours';
 <div class="container">
 
 <div class="row mb-4 m-3">
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
   <div class="col-sm-4">
     <div class="card border-0">
       <div class="card-body">
@@ -205,13 +138,8 @@ $this->title = 'Tours';
           <hr class="my-4">
         </div>
           </div>
-<<<<<<< HEAD
         </div>
         </div>
-=======
-        </div>
-        </div>
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
       </div>
     </div>
   </div>
@@ -271,20 +199,12 @@ $this->title = 'Tours';
 </div>
   </div>
 
-<<<<<<< HEAD
-  <div class="col-md-5">
-=======
   <div class="col-md-5 container">
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
   <div class="">
   <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
-<<<<<<< HEAD
-      <i class="fa fa-tools size"></i>
-=======
       <i class="fa fa-wrench size"></i>
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
       </div>
       <div class="col-8 container">
         <p>
