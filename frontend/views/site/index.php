@@ -5,70 +5,54 @@ use yii\helpers\Url;
 
 $this->title = 'Tours';
 ?>
-<section class="container-fluid">
-  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <a href="#!">
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce4.jpg" alt="First slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class="h1-responsive red-text font-weight-bold mb-0">AFRICAN TOURS</p>
-              	</div>
-            	</div>
-          	</div>
-       		</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <a>
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce2.jpg" alt="Second slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class="h1-responsive indigo-text font  -weight-bold mb-0">Awesome Adventure in Africa!</p>
-              	</div>
-            	</div>
-          	</div>
-          </a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <a>
-          	<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/ecommerce3.jpg" alt="Third slide">
-          	<div class="mask rgba-white-slight text-center d-flex align-items-center justify-content-center">
-            	<div class="row">
-              	<div class="col-12">
-                	<p class=" orange-text font-weight-bold mb-0">Pure Enjoyment!</p>
-                </div>
-            	</div>
-          	</div>
-          </a>
-        </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://img.grouponcdn.com/deal/uiKjppB9Rh8VsqpjWtJu/cw-960x582/v1/c700x420.jpg" height="" width="" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>African Tour</h5>
+        <p>, nulla, tempore. Deserunt excepturi quas vero.</p>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://claudioustours.co.ke/wp-content/uploads/2020/04/African-Tours-Safaris.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Adventure In Africa</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tourradar.com/s3/content-pages/279/1024x460/ZFkGZ2.jpeg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Black is Beuty</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+      </div>
+    </div>
   </div>
-</section>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="search d-flex">
+  <div>
+  <div class="wrapper">
+		<input class="search" type="text" id="search" />
+  </div>
+</div>
 
 <div class="container">
-<div class="row mb-4">
+
+<div class="row mb-4 m-3">
   <div class="col-sm-4">
     <div class="card border-0">
       <div class="card-body">
@@ -215,12 +199,12 @@ $this->title = 'Tours';
 </div>
   </div>
 
-  <div class="col-md-5">
+  <div class="col-md-5 container">
   <div class="">
-  <div class="card shadow">
+  <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
-      <i class="fa fa-tools size"></i>
+      <i class="fa fa-wrench size"></i>
       </div>
       <div class="col-8 container">
         <p>
@@ -231,10 +215,10 @@ $this->title = 'Tours';
     </div>
   </div>
   <br>
-  <div class="card shadow">
+  <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
-        My name is dilas
+      <i class="fa fa-calendar size"></i>
       </div>
       <div class="col-8">
         <p>
@@ -247,8 +231,8 @@ $this->title = 'Tours';
   <br>
   <div class="card shadow">
     <div class="card-body d-flex">
-      <div class="col-4 ">
-        My name is dilas
+      <div class="col-4 " style="font-weight: 900;">
+      <i class="fas fa-headsets size"></i>
       </div>
       <div class="col-8">
         <p>
