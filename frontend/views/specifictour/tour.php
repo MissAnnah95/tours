@@ -1,3 +1,7 @@
+<?php
+
+use yii\helpers\Url;
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -479,7 +483,7 @@
                     </div>  
                   </div>
                   <div class="a_center">
-                    <a href="#" class="btn btn-primary >">Approve Date</a>
+                    <a href="<?= Url::to(['site/booking'])?>" class="btn btn-primary >">Approve Date</a>
                     </div>
                     </div>
                     <div class="card-footer text-muted">KSh 1,197</div>
@@ -502,7 +506,7 @@
                     </div>  
                   </div>
                   <div class="a_center">
-                    <a href="#" class="btn btn-primary >">Approve Date</a>
+                    <a href="<?= Url::to(['site/booking'])?>" class="btn btn-primary >">Approve Date</a>
                     </div>
                     </div>
                     <div class="card-footer text-muted">KSh 1,197</div>

@@ -1,3 +1,7 @@
+<?php
+
+use yii\helpers\Url;
+?>
 <div class="col-12">
   <h1> Deals and Discounts in African Tours</h1>
   <hr style="color:gray;background-color:gray">
@@ -51,7 +55,7 @@
               <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
               <strong class="d-inline-block mb-2 text-body">Age Range</strong>
               <strong class="d-inline-block mb-2 text-body">Price</strong>
-              <a href="#" class="stretched-link">View Tour</a>
+              <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
             </div>
 
           </div>
@@ -79,7 +83,7 @@
                    <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
                    <strong class="d-inline-block mb-2 text-body">Age Range</strong>
                    <strong class="d-inline-block mb-2 text-body">Price</strong>
-                   <a href="#" class="stretched-link">View Tour</a>
+                   <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
                  </div>
 
                </div>
@@ -107,7 +111,7 @@
                         <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
                         <strong class="d-inline-block mb-2 text-body">Age Range</strong>
                         <strong class="d-inline-block mb-2 text-body">Price</strong>
-                        <a href="#" class="stretched-link">View Tour</a>
+                        <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
                       </div>
 
                     </div>
