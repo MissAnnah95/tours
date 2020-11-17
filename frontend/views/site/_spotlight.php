@@ -84,7 +84,7 @@
   <div class="card shadow">
     <div class="card-body d-flex">
       <div class="col-4 " style="font-weight: 900;">
-      <i class="fas fa-headsets size"></i>
+      <i class="fa fa-phone size"></i>
       </div>
       <div class="col-8">
         <p>
