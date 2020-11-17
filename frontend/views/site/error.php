@@ -5,7 +5,7 @@
 /* @var $message string */
 /* @var $exception Exception */
 
-use yii\helpers\Html;
+use yii\helpers\Url;
 
 $this->title = $name;
 ?>
@@ -21,3 +21,5 @@ $this->title = $name;
   </div>
 </div>
 </div>
+</body>
+
