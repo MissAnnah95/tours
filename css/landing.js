@@ -152,6 +152,9 @@
               template: '<div class="tooltip md-tooltip"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner"></div></div>'
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2b9c8aa... landing changes
           })
 
 
@@ -162,6 +165,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2b9c8aa... landing changes
 
           // Startup Scripts
 $(document).ready(function()
@@ -179,6 +185,7 @@ $(document).ready(function()
 $(window).resize(function()
 {
 	$('.hero').css('height', ($(window).height() - $('header').outerHeight()) + 'px'); // Refresh hero height
+<<<<<<< HEAD
 }); 
 =======
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
@@ -187,3 +194,6 @@ $(window).resize(function()
 >>>>>>> 0a6e3d3... landing
 =======
 >>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
+=======
+}); 
+>>>>>>> 2b9c8aa... landing changes

@@ -8,10 +8,14 @@ $this->title = 'Tours';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <section class="container-fluid">
 =======
 <section class="">
 >>>>>>> 0a6e3d3... landing
+=======
+<section class="container-fluid">
+>>>>>>> 2b9c8aa... landing changes
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>

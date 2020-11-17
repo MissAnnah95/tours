@@ -5,6 +5,7 @@ body {
     padding: 0;
     /* background: cyan; */
 }
+<<<<<<< HEAD
 
 
  body{min-height:200vh;}
@@ -37,3 +38,18 @@ nav ul li a i {
 .logo span{
   color: #85C9E9;
 }
+=======
+
+ body{min-height:200vh;}
+.navbar-default{
+  transition:500ms ease;
+  /* background:transparent; */
+  background: red;
+}
+
+.navbar-default.scrolled{
+    background:#000;
+  }
+
+
+>>>>>>> 2b9c8aa... landing changes

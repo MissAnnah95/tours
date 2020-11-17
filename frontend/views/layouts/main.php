@@ -30,6 +30,9 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<div class="top-nav">
+ <p class="covid">Covid-20 news ...</p>
+</div>
 
 
 <div class="top-nav">
