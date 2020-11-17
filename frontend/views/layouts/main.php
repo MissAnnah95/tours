@@ -30,6 +30,14 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+
+
+<div class="top-nav">
+ <p class="covid">Covid-20 news ...</p>
+</div>
+
+
+
     <!-- <div class="top-nav">
     <p class="covid">Covid-20 news ...</p>
     </div> -->
@@ -56,6 +64,9 @@ AppAsset::register($this);
                         <li class="nav-item active">
                             <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span class="sr-only">(current)</span></a>
                         </li>
+
+
+
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
