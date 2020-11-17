@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0a6e3d3... landing
 // $(document).ready(function () {
 //     var itemsMainDiv = ('.MultiCarousel');
 //     var itemsDiv = ('.MultiCarousel-inner');
@@ -135,13 +138,17 @@
 //             interval: 3000,
 //         })
 
+<<<<<<< HEAD
 =======
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+=======
+>>>>>>> 0a6e3d3... landing
         // new coracel
         $(function () {
             $('.material-tooltip-main').tooltip({
               template: '<div class="tooltip md-tooltip"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner"></div></div>'
             });
+<<<<<<< HEAD
           })
 
 
@@ -171,3 +178,6 @@ $(window).resize(function()
 }); 
 =======
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+=======
+          })
+>>>>>>> 0a6e3d3... landing

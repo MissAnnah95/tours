@@ -6,7 +6,11 @@ use yii\helpers\Url;
 $this->title = 'Tours';
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <section class="container-fluid">
+=======
+<section class="">
+>>>>>>> 0a6e3d3... landing
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -70,6 +74,7 @@ $this->title = 'Tours';
 
 <div class="container">
 <div class="row mb-4">
+<<<<<<< HEAD
 =======
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -120,6 +125,8 @@ $this->title = 'Tours';
 
 <div class="row mb-4 m-3">
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+=======
+>>>>>>> 0a6e3d3... landing
   <div class="col-sm-4">
     <div class="card border-0">
       <div class="card-body">
@@ -205,13 +212,10 @@ $this->title = 'Tours';
           <hr class="my-4">
         </div>
           </div>
-<<<<<<< HEAD
+
         </div>
         </div>
-=======
-        </div>
-        </div>
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
       </div>
     </div>
   </div>
@@ -271,20 +275,16 @@ $this->title = 'Tours';
 </div>
   </div>
 
-<<<<<<< HEAD
-  <div class="col-md-5">
-=======
   <div class="col-md-5 container">
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
   <div class="">
   <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
-<<<<<<< HEAD
-      <i class="fa fa-tools size"></i>
-=======
       <i class="fa fa-wrench size"></i>
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
+      <i class="fa fa-tools size"></i>
+
       </div>
       <div class="col-8 container">
         <p>
