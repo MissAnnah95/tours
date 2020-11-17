@@ -7,6 +7,7 @@ $this->title = 'Tours';
 ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <section class="container-fluid">
 =======
 <section class="">
@@ -76,6 +77,8 @@ $this->title = 'Tours';
 <div class="row mb-4">
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -124,9 +127,12 @@ $this->title = 'Tours';
 <div class="container">
 
 <div class="row mb-4 m-3">
+<<<<<<< HEAD
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 =======
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
   <div class="col-sm-4">
     <div class="card border-0">
       <div class="card-body">
@@ -212,10 +218,15 @@ $this->title = 'Tours';
           <hr class="my-4">
         </div>
           </div>
+<<<<<<< HEAD
 
         </div>
         </div>
 
+=======
+        </div>
+        </div>
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
       </div>
     </div>
   </div>
@@ -276,15 +287,21 @@ $this->title = 'Tours';
   </div>
 
   <div class="col-md-5 container">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
   <div class="">
   <div class="card shadow mb-lg-4">
     <div class="card-body d-flex">
       <div class="col-4 ">
       <i class="fa fa-wrench size"></i>
+<<<<<<< HEAD
 
       <i class="fa fa-tools size"></i>
 
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
       </div>
       <div class="col-8 container">
         <p>

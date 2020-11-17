@@ -31,9 +31,12 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
+
 <div class="top-nav">
  <p class="covid">Covid-20 news ...</p>
 </div>
+
+
 
     <!-- <div class="top-nav">
     <p class="covid">Covid-20 news ...</p>
@@ -61,6 +64,8 @@ AppAsset::register($this);
                         <li class="nav-item active">
                             <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span class="sr-only">(current)</span></a>
                         </li>
+
+
 
 
                         <li class="nav-item dropdown">

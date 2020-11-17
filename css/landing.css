@@ -10,6 +10,7 @@
     text-align: center;
     color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 5px;
   }
 
@@ -25,6 +26,8 @@
 
        .product-discount-label, .product-new-label{
 =======
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
     /* padding: 5px; */
   }
 
@@ -36,7 +39,6 @@
 
 
 .product-discount-label, .product-new-label{
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
          color:#fff;
          background-color:#E74C3C;
          font-size:12px;
@@ -72,6 +74,7 @@
    font-size: 500%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0a6e3d3... landing
    border: 3px solid #18A0FB;
@@ -84,6 +87,8 @@ box-sizing: border-box; */
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
    color: #E6F1F9;
    /* font-weight: 900 */
 
@@ -91,9 +96,12 @@ box-sizing: border-box; */
 
 
 
+<<<<<<< HEAD
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 =======
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
 .services{
   font-family: Roboto;
   font-weight: bold;
@@ -108,6 +116,7 @@ box-sizing: border-box; */
   font-size: 30px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color:#18A0FB;
 =======
   color:#85C9E9;
@@ -115,6 +124,9 @@ box-sizing: border-box; */
 =======
   color:#18A0FB;
 >>>>>>> 0a6e3d3... landing
+=======
+  color:#85C9E9;
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
 
 }
 
@@ -164,9 +176,6 @@ box-sizing: border-box; */
 
 
 
-<<<<<<< HEAD
-/* Navbar */
-=======
 /* Navbar */
 
 .carousel-item {
@@ -197,7 +206,10 @@ box-sizing: border-box; */
 }
 
 
+<<<<<<< HEAD
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 =======
 }
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a

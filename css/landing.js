@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0a6e3d3... landing
 // $(document).ready(function () {
@@ -143,6 +144,8 @@
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 =======
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
         // new coracel
         $(function () {
             $('.material-tooltip-main').tooltip({
@@ -157,6 +160,7 @@
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
           });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
           // Startup Scripts
@@ -181,3 +185,5 @@ $(window).resize(function()
 =======
           })
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a

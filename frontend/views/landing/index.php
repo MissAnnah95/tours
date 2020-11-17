@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nav class="navbar navbar-default navbar-fixed-top">
 
 </nav>
@@ -139,6 +140,8 @@
 </body>
 
 =======
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
 <body class="hm-gradient">
 
     <main>
@@ -410,6 +413,7 @@
     </main>
 
 </body>
+<<<<<<< HEAD
 >>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 =======
 <div class="container my-4">
@@ -606,3 +610,5 @@
 
 </div>
 >>>>>>> 0a6e3d3... landing
+=======
+>>>>>>> 9eb84f5ca76ed8e51c4f3eb6f9f7bb3973f7592a
