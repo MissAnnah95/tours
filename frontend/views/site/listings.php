@@ -8,7 +8,7 @@ use yii\helpers\Url;
 <!-- Listings Filter -->
 <div class="container">
 <div class="row">
- <div class="col-3">
+ <div class="col-2">
      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
      <br></br>
      <div class="accordion shadow-sm" id="accordionExample">
@@ -174,7 +174,7 @@ use yii\helpers\Url;
    </div>
  </div>
   </div>
-<div class="col-9">
+<div class="col-10">
      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
            <div class="card" style="width: 18rem;">
              <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t5.jpg" class="card-img-top" alt="...">
