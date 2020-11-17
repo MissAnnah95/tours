@@ -1,8 +1,9 @@
 <?php
 
 namespace backend\assets;
-
+use floor12\notification\NotificationAsset;
 use yii\web\AssetBundle;
+
 
 /**
  * Main backend application asset bundle.
@@ -19,5 +20,6 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'floor12\notification\NotificationAsset'
     ];
 }
