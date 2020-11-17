@@ -1,7 +1,10 @@
 <?php
 
 ?>
+
 <div class="body">
+
+
 <div class="wrap">
     <div class="container">
     <h1> Kenya Wildlife Safari </h1>
@@ -60,7 +63,7 @@
       </form> -->
     </div>
             <div class="col-8">
-                
+
                     <h2> 1. Review Your Dates </h2>
                     <div class="card  bg-light mb-3">
                 <div class="card-body"><h5>Your trip is from: <br></br>Wednesday 11th November to Sunday 15th November</h5><br><a href="#">Change Dates</a></br>
@@ -69,42 +72,22 @@
                     <div id="calendar"></div>
                     <div class="container">
   <div class="row">
-    
+
   </div>
-  <br />
-    <div class="row">
-        <div class='col-sm-12'>
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker1'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                    </span>
-                </div>
-            </div>
-        </div>
+  
     </div>
 </div>
 
 
-                    <!-- <input type="text" id="picker" class="form-control">
-                </div>
+                   
 
-                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajaz/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-                <script src="https://jquery.datetimepicker.full.min.js"></script>
-                <script>
-                    $('#picker').datetimepicker({
-                        timepicker:false,
-                        datepicker: true,
-                        format: 'Y-m-d',
-                        value: '2020-11-11'
-                    })
-                </script> -->
+                
+
             <div class="col-md-12 text-center">
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
                     </div>
+
     </div>
     </div>
     </div>
@@ -114,13 +97,10 @@
 
 <div class="container">
             <div class="row">
-                <div class="col-8">
-                    
-    
                     <h2> 2. Traveler Details </h2>
                     <div class="card bg-light mb-3">
                         <div class="card-body">
-  
+
                             <form>
                                 <div class="form-group">
                                 <div class="col-10">
@@ -145,6 +125,7 @@
                                     <label>Nationality</label>
                                     <input class="form-control" placeholder="Country">
                                 </div>
+
                                 </div>
                                 <div class="col-md-12 text-center">
                                 <button type="submit" class="btn btn-primary">Add traveler</button>
@@ -159,6 +140,7 @@
 
         <div class="container">
             <div class="row">
+
                 <div class="col-8">
                     
             <h2> 3. Payment </h2>
@@ -181,36 +163,61 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <label>Card Type</label> &nbsp;&nbsp; <i class="fa fa-cc-mastercard" aria-hidden="true"></i> &nbsp; 
+
                                     <i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-cc-amex" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-google-wallet" aria-hidden="true"></i>
 
-                                    <input class="form-control"> 
+                                    <input class="form-control">
                                     </div>
 
                                 </div>
                                 <div class="form-group">
-                                    <div class="col-10">
+
+                                    
+
+                                    <div class="col-8">
+
+
                                     <label>Card number</label>
                                     <input class="form-control" placeholder="Enter email">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="col-10">
+
+                                    
+                                    <div class="col-8">
+
+
                                     <label>CVV</label>
                                     <input class="form-control">
                                     </div>
-                                </div>    
+                                </div>
                                 <div class="form-group">
-                                    <div class="col-10">
+                                    
+                                    <div class="col-8">
+
                                     <label>Country zip code</label>
                                     <input class="form-control" placeholder="zip code">
                                     </div>
                                 </div>
-                                
-                            </form>      </div>
-                                        </div>
-                                    </div>
+
+                                <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary">Confirm</button>
+                                                </div>
+                            </form>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       <div class="col-6"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div>
+
+
+
+
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                         <h2 class="mb-0">
@@ -264,17 +271,12 @@
                                         <label class="form-check-label" for="exampleCheck1">I accept Terms & Conditions and Privacy Policy; and Intrepid Travel's payment, cancellation and refund conditions, and Credit for Future Tours Terms & Conditions.</label>
                                     </div>
                                     <br></br>
-                                                                    <div class="col-12 text-centre"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div> 
+                                                                    <div class="col-12 text-centre"> <button type="success" class="btn btn-primary btn-lg btn-block">BOOK NOW</button> </div>
 
-                                                            </div>    
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                 
-        </div>
-
-
-
 
 
 </div>
