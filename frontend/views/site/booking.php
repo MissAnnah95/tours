@@ -117,16 +117,15 @@
             <div class="col-md-12 text-center">
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
-<<<<<<< HEAD
+
                     </div>
-=======
 
             <div class="col-md-12 text-center">
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
                     </div>
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
     </div>
     </div>
     </div>
@@ -136,8 +135,10 @@
 
 <div class="container">
             <div class="row">
+
                 <div class="col-sm-6">
                     <div class="panel panel-default">
+
 
                     <h2> 2. Traveler Details </h2>
                         <div class="panel-body">
@@ -159,8 +160,7 @@
                                     <label>Nationality</label>
                                     <input class="form-control" placeholder="Country">
                                 </div>
-<<<<<<< HEAD
-=======
+
                     <h2> 2. Traveler Details </h2>
                     <div class="card bg-light mb-3">
                         <div class="card-body">
@@ -189,7 +189,7 @@
                                     <label>Nationality</label>
                                     <input class="form-control" placeholder="Country">
                                 </div>
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
                                 </div>
                                 <div class="col-md-12 text-center">
                                 <button type="submit" class="btn btn-primary">Add traveler</button>
@@ -204,7 +204,7 @@
 
         <div class="container">
             <div class="row">
-<<<<<<< HEAD
+
                 <div class="col-8">
                     
             <h2> 3. Payment </h2>
@@ -227,8 +227,7 @@
                                 <div class="form-group">
                                     <div class="col-10">
                                     <label>Card Type</label> &nbsp;&nbsp; <i class="fa fa-cc-mastercard" aria-hidden="true"></i> &nbsp; 
-=======
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
                                     <i class="fa fa-cc-visa" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-cc-amex" aria-hidden="true"></i>&nbsp;
                                     <i class="fa fa-google-wallet" aria-hidden="true"></i>
@@ -238,40 +237,30 @@
 
                                 </div>
                                 <div class="form-group">
-<<<<<<< HEAD
-                                    <div class="col-10">
-=======
+
                                     <div class="col-8">
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
+
                                     <label>Card number</label>
                                     <input class="form-control" placeholder="Enter email">
                                     </div>
                                 </div>
                                 <div class="form-group">
-<<<<<<< HEAD
-                                    <div class="col-10">
-=======
+
                                     <div class="col-8">
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <label>CVV</label>
                                     <input class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-<<<<<<< HEAD
-                                    <div class="col-10">
-=======
+
                                     <div class="col-8">
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                                     <label>Country zip code</label>
                                     <input class="form-control" placeholder="zip code">
                                     </div>
                                 </div>
-<<<<<<< HEAD
-                                
-=======
+
                                 <div class="col-md-12 text-center">
                                 <button type="submit" class="btn btn-primary">Confirm</button>
                                                 </div>
@@ -287,7 +276,6 @@
 
 
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
                             </form>      </div>
                                         </div>
                                     </div>
@@ -351,16 +339,10 @@
                                                     </div>
                                                 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 58c874b (bookings page)
-=======
         </div>
 
 
 
->>>>>>> 4de87fb985be4840f699eecee4bfddcbbc0132d7
 
 </div>
