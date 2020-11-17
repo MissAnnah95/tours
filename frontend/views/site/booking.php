@@ -1,9 +1,19 @@
 <?php
 
 ?>
+<div class="wrap">
 
-<div class="body">
-
+    <h1> Kenya Wildlife Safari </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="panel panel-default">
+                    <h2> 1. Review Your Dates </h2>
+                <div class="panel-body">Wednesday 11th November to Sunday 15th November<br><a href="#">Change Dates</a></br>
+                <div class="container mt-5 mb-5" style="width: 400px">
+                    <h3>Choose Date</h3>
+                    <input type="text" id="picker" class="form-control">
+                </div>
 
 <div class="wrap">
     <div class="container">
@@ -74,19 +84,47 @@
   <div class="row">
 
   </div>
-  
+  <br />
+    <div class="row">
+        <div class='col-sm-12'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 
-                   
+                    <!-- <input type="text" id="picker" class="form-control">
+                </div>
 
-                
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajaz/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                <script src="https://jquery.datetimepicker.full.min.js"></script>
+                <script>
+                    $('#picker').datetimepicker({
+                        timepicker:false,
+                        datepicker: true,
+                        format: 'Y-m-d',
+                        value: '2020-11-11'
+                    })
+                </script>
+            <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-primary">Confirm dates</button>
+        </div>
+
+                    </div>
 
             <div class="col-md-12 text-center">
             <button type="button" class="btn btn-primary">Confirm dates</button>
         </div>
                     </div>
+
 
     </div>
     </div>
@@ -97,6 +135,32 @@
 
 <div class="container">
             <div class="row">
+
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+
+
+                    <h2> 2. Traveler Details </h2>
+                        <div class="panel-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <label>Full name</label>
+                                    <input class="form-control" placeholder="Full name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input class="form-control" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label>Contact</label>
+                                    <input class="form-control" placeholder="Phone number">
+                                </div>
+                                <div class="form-group">
+                                    <label>Nationality</label>
+                                    <input class="form-control" placeholder="Country">
+                                </div>
+
                     <h2> 2. Traveler Details </h2>
                     <div class="card bg-light mb-3">
                         <div class="card-body">
@@ -174,8 +238,6 @@
                                 </div>
                                 <div class="form-group">
 
-                                    
-
                                     <div class="col-8">
 
 
@@ -185,18 +247,15 @@
                                 </div>
                                 <div class="form-group">
 
-                                    
                                     <div class="col-8">
-
 
                                     <label>CVV</label>
                                     <input class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    
-                                    <div class="col-8">
 
+                                    <div class="col-8">
                                     <label>Country zip code</label>
                                     <input class="form-control" placeholder="zip code">
                                     </div>
@@ -217,7 +276,9 @@
 
 
 
-
+                            </form>      </div>
+                                        </div>
+                                    </div>
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                         <h2 class="mb-0">
@@ -277,6 +338,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
+
+        </div>
+
+
 
 
 </div>

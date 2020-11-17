@@ -11,3 +11,9 @@
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
           });
 
+// another corasel
+
+
+$('#blogCarousel').carousel({
+    interval: 3000
+});
