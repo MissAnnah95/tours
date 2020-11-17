@@ -19,6 +19,8 @@ class AppAsset extends AssetBundle
 
         'css/landing.css',
 
+        'css/specifictour.css',
+
     ];
     public $js = [
         'css/landing.js',

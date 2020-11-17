@@ -34,7 +34,7 @@ AppAsset::register($this);
     <p class="covid">Covid-20 news ...</p>
     </div>
 <!--Navbar -->
-<nav class="mb-0 navbar navbar-expand-lg">
+<nav class="mb-0 navbar navbar-expand-lg nav-style">
 <div class="view overlay z-depth-1-half">
         </div>
         <div style="float: left;">
@@ -77,7 +77,7 @@ AppAsset::register($this);
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse dark navbar-fixed-top',
+            'class' => 'navbar-inverse dark navbar-fixed-top ',
         ],
     ]);
 
@@ -97,7 +97,7 @@ AppAsset::register($this);
     </div>
 </div>
 
-<!-- <?php echo $this->render('_footer')?> -->
+<?php echo $this->render('_footer')?> 
 
 <?php $this->endBody() ?>
 </body>
