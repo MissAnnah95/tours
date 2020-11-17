@@ -14,8 +14,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-compass"></i> Destinations</a>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"" href="#"><i class="fa fa-compass"></i> Destinations</a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+                                <a class="dropdown-item" href="#">My account</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                                <a class="dropdown-item" href="#">Change Profile</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="fa fa-plane"></i> Tours</a>
