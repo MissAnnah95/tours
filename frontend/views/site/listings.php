@@ -27,7 +27,7 @@ use yii\helpers\Url;
            Departure Period
          </button>
        </h2>
-     </div>
+       </div>
 
      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
        <div class="card-body">
