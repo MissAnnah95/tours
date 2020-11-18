@@ -8,6 +8,7 @@ use yii\helpers\Url;
     <li class="breadcrumb-item active" aria-current="page">Tour Lists</li>
   </ol>
 </nav>
+
   <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
     <i class="fa fa-caret-down" aria-hidden="true"></i>
   </a></h1>
