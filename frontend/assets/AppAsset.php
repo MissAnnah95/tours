@@ -16,7 +16,7 @@ class AppAsset extends AssetBundle
         'css/site.css',
 
         'css/custom.css',
-
+        'css/specifictour.css',
         'css/landing.css',
         'css/booking.css',
 

@@ -38,7 +38,7 @@ AppAsset::register($this);
     <p class="covid">Covid-20 news ...</p>
     </div>
 <!--Navbar -->
-<nav class="mb-0 navbar navbar-expand-lg">
+<nav class="mb-0 navbar navbar-expand-lg shadow-sm">
 <div class="view overlay z-depth-1-half">
         </div>
         <div style="float: left;">
@@ -101,7 +101,7 @@ AppAsset::register($this);
     </div>
 </div>
 
-<!-- <?php echo $this->render('_footer')?> -->
+<?php echo $this->render('_footer')?>
 
 <?php $this->endBody() ?>
 </body>
