@@ -26,7 +26,7 @@ use yii\helpers\Url;
 
   <body class="margin_bottom body">
       <section>
-        <div class="container shadow-sm">
+        <div class="container">
           <div class="row topmargin">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -65,7 +65,7 @@ use yii\helpers\Url;
 
 
 
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-sm-6 shadow-sm">
                 <p class="text-muted">10 Days</p>
                 <h3>Kenya One Life Adventures - 10 Days</h3>
 
@@ -97,131 +97,123 @@ use yii\helpers\Url;
       </section>
 
       <section>
-      <div class="container margin_top shadow-sm">
+      <div class="container margin_top ">
           <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
       <!--Carousel Wrapper-->
-      <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
       <h1>Places You'll See</h1>
 
-        <!--Controls-->
-        <div class="controls-top ">
-          <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-          <a class="black-text pull-right" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-        </div>
-        <!--/.Controls-->
-
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-
-          <!--First slide-->
-          <div class="carousel-item active">
-              <div class="container">
-              <div class="row">
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/1.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/2.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/3.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/4.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-            </div>
-            </div>
-          </div>
-          <!--/.First slide-->
-
-          <!--Second slide-->
-          <div class="carousel-item">
-          <div class="container">
-              <div class="row">
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/5.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/6.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/7.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/8.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-            </div>
-            </div>
-          </div>
-          <!--/.Second slide-->
-
-          <!--Third slide-->
-          <div class="carousel-item">
-          <div class="container">
-              <div class="row">
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/9.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/10.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/11.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/12.jpg"
-                  alt="Card image cap">
-              </div>
-            </div>
+      <div class=" row">
+  <div class=" col-lg-2 col-md-12 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/1.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/2.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/3.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-12 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/4.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/5.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/6.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/7.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-12 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/8.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/9.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class=" col-lg-2 col-md-12 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/10.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/11.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-12 mb-4">
+    <div class="view overlay z-depth-1-half">
+      <img src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/12.jpg" class="img-fluid"
+        alt="">
+      <a href="">
+        <div class="mask rgba-white-light"></div>
+      </a>
+    </div>
+  </div>
 </div>
-            </div>
-          </div>
-         </div>
+</div>
         </div>
       </div>
      </div>
@@ -229,7 +221,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-          <div class="container margin_top shadow-sm">
+          <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Map</h1>
@@ -239,7 +231,7 @@ use yii\helpers\Url;
           </div>
       </section>
       <section>
-          <div class="container margin_top shadow-sm">
+          <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Itinerary</h1>
@@ -352,7 +344,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-      <div class="container margin_top shadow-sm">
+      <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Services Available</h1>
@@ -460,7 +452,7 @@ use yii\helpers\Url;
       </div>
       </section>
         <section>
-          <div class="container margin_top shadow-sm">
+          <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
             <div id="outer">
@@ -526,7 +518,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-          <div class="container shadow-sm">
+          <div class="container ">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Accommodation</h1><br><hr>
@@ -563,7 +555,7 @@ use yii\helpers\Url;
      </div>
 
       <section>
-      <div class="container margin_top shadow-sm">
+      <div class="container margin_top">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
             <h1>Customer Reviews</h1><br>
