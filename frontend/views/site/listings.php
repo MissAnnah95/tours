@@ -9,16 +9,16 @@ use yii\helpers\Url;
   </ol>
 </nav>
 
-  <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
-    <i class="fa fa-caret-down" aria-hidden="true"></i>
-  </a></h1>
-  <div class="collapse" id="collapseTours">
-    <div class="card card-body">
-    <p class="font-italic">  Find the right tour for you through Africa. We've got 6135 tours going to Africa, starting from just 3 days in length, and the longest tour is 326 days. The most popular month to go is December, which has the most number of tour departures.</p>
+    <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </a></h1>
+    <div class="collapse" id="collapseTours">
+      <div class="card card-body">
+        <p class="font-italic">  Find the right tour for you through Africa. We've got 6135 tours going to Africa, starting from just 3 days in length, and the longest tour is 326 days. The most popular month to go is December, which has the most number of tour departures.</p>
+      </div>
     </div>
+    <hr style="color:gray;background-color:gray">
   </div>
-  <hr style="color:gray;background-color:gray">
-</div>
 <!-- Listings Filter -->
 <div class="container">
 <div class="row">
