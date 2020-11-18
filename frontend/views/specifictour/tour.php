@@ -30,8 +30,9 @@ use yii\helpers\Url;
         <div class="shadow-sm p-3 mb-5 bg-white rounded">
           <div class="row margin_top">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
+             
+           <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                  <div class="carousel-inner to-border_radius">
                     <div class="carousel-item active">
                       <img class="d-block w-100" id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli.jpg" class="img-fluid" alt="Responsive image">
 
@@ -115,7 +116,7 @@ use yii\helpers\Url;
         <!--/.Controls-->
 
         <!--Slides-->
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner " role="listbox">
 
           <!--First slide-->
           <div class="carousel-item active">
@@ -229,7 +230,6 @@ use yii\helpers\Url;
       </div>
       </div>
      </div>
-    </div>
       </section>  
       
       <section>
