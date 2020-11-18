@@ -32,7 +32,7 @@ use yii\helpers\Url;
 
      <fieldset>
      <div class="accordion shadow-sm" id="collapseExample">
-       <div class="col">
+       
        <div class="card-header">
       <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Total Price
@@ -43,7 +43,7 @@ use yii\helpers\Url;
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
       </div>
     </div>
-</div>
+
 </fieldset>
 <br></br>
 

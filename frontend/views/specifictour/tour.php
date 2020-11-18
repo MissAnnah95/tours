@@ -8,7 +8,7 @@ use yii\helpers\Url;
     <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=&v=weekly" defer></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
     <script>
       function initMap() {
         const kenya = { lat: -2.634830794, lng: 37.250498998 };
@@ -226,8 +226,8 @@ use yii\helpers\Url;
       </div>
      </div>
     </div>
-      </section>  
-      
+      </section>
+
       <section>
           <div class="container margin_top">
             <div class="row">
@@ -265,13 +265,13 @@ use yii\helpers\Url;
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <b>Day 1: Arrival Cairo – Overnight in Cairo (No Meals)</b> 
+              <b>Day 1: Arrival Cairo – Overnight in Cairo (No Meals)</b>
               </button>
             </h2>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-            Arrive in Cairo airport, you will be met and assist by our representative who will assist you through the formalities, and then be transferred to your hotel, overnight at your hotel in Cairo. 
+            Arrive in Cairo airport, you will be met and assist by our representative who will assist you through the formalities, and then be transferred to your hotel, overnight at your hotel in Cairo.
             </div>
           </div>
         </div>
@@ -279,7 +279,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 2: Giza – Pyramids tour – be ready at 07.15 AM to meet your tour guide, Overnight in Cairo (B)</b> 
+              <b>Day 2: Giza – Pyramids tour – be ready at 07.15 AM to meet your tour guide, Overnight in Cairo (B)</b>
               </button>
             </h2>
           </div>
@@ -292,7 +292,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 3: Flight to Aswan, Aswan Day tour - Nile cruise and overnight in Aswan (B, L, D)</b> 
+              <b>Day 3: Flight to Aswan, Aswan Day tour - Nile cruise and overnight in Aswan (B, L, D)</b>
               </button>
             </h2>
           </div>
@@ -305,13 +305,13 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 4: Nile Cruise – Edfu Temple – Kom Ombo Temple – Overnight Nile cruise in Edfu (B, L, D)</b> 
+              <b>Day 4: Nile Cruise – Edfu Temple – Kom Ombo Temple – Overnight Nile cruise in Edfu (B, L, D)</b>
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-            (Optional Early morning trip to Abu Simbel by road with breakfast box - without missing any part of the tour) 
+            (Optional Early morning trip to Abu Simbel by road with breakfast box - without missing any part of the tour)
       After breakfast, free time then have lunch then enjoy sailing down the fertile bank of the Nile to visit Kom-Ombo Temples. Continue down the Nile to the city of Edfu, dinner and overnight on your 5 stars standard Nile Cruise.       </div>
           </div>
         </div>
@@ -319,7 +319,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 5: Optional tour to Alexandria – Overnight in Cairo(B)</b> 
+              <b>Day 5: Optional tour to Alexandria – Overnight in Cairo(B)</b>
               </button>
             </h2>
           </div>
@@ -332,17 +332,17 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 6: Flight (B)</b> 
+              <b>Day 6: Flight (B)</b>
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-            After breakfast take your memories with you in the flight back home. 
+            After breakfast take your memories with you in the flight back home.
           (Extension to Jordan, Israel, Morocco, and Dubai is available )      </div>
           </div>
         </div>
-        
+
       </div>
               </div>
             </div>
@@ -377,7 +377,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <b>Guide</b> 
+              <b>Guide</b>
               </button>
             </h2>
           </div>
@@ -401,7 +401,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Transport</b> 
+              <b>Transport</b>
               </button>
             </h2>
           </div>
@@ -414,7 +414,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Flights</b> 
+              <b>Flights</b>
               </button>
             </h2>
           </div>
@@ -427,7 +427,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Insurance</b> 
+              <b>Insurance</b>
               </button>
             </h2>
           </div>
@@ -439,7 +439,7 @@ use yii\helpers\Url;
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Additional Services</b> 
+              <b>Additional Services</b>
               </button>
             </h2>
           </div>
@@ -448,7 +448,7 @@ use yii\helpers\Url;
             Travel insurance Single accommodation (available on request)Visas or vaccinations Mandatory transfer package (including return charter flights between Toronto and Resolute) which is £1700 per person (or equivalent in booking currency) paid on booking</div>
           </div>
         </div>
-        
+
       </div>
               </div>
             </div>
@@ -472,7 +472,7 @@ use yii\helpers\Url;
               </p>
               <br><br><br>
 
-              
+
               <div class="row">
                 <div class="row">
                 <div class="card text-center cardcenter collapse multi-collapse" id="multiCollapseExample1">
@@ -487,7 +487,7 @@ use yii\helpers\Url;
                       <div class="card-header"><b>17 August, 2021</b></div>
                       <p class="card-text">Tuesday</p>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                   <div class="a_center">
                     <a href="<?= Url::to(['site/booking'])?>" class="btn btn-primary >">Approve Date</a>
@@ -510,7 +510,7 @@ use yii\helpers\Url;
                       <div class="card-header"><b>17 September, 2021</b></div>
                       <p class="card-text">Tuesday</p>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                   <div class="a_center">
                     <a href="<?= Url::to(['site/booking'])?>" class="btn btn-primary >">Approve Date</a>
@@ -569,7 +569,7 @@ use yii\helpers\Url;
             <h1>Customer Reviews</h1><br>
 
             <table class="roundedCorners back_color">
-               
+
                 <tr>
                   <td colspan="2">
                   <div class="container ">
@@ -712,7 +712,7 @@ use yii\helpers\Url;
                   </div>
                   </td>
                 </tr>
-                
+
               </table>
 
             </div>
