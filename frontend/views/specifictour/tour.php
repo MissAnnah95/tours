@@ -26,8 +26,8 @@ use yii\helpers\Url;
 
   <body class="margin_bottom body">
       <section>
-        <div class="container">
-          <div class="row">
+        <div class="container shadow-sm">
+          <div class="row topmargin">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
@@ -97,7 +97,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-      <div class="container margin_top">
+      <div class="container margin_top shadow-sm">
           <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
       <!--Carousel Wrapper-->
@@ -229,7 +229,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-          <div class="container margin_top">
+          <div class="container margin_top shadow-sm">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Map</h1>
@@ -239,7 +239,7 @@ use yii\helpers\Url;
           </div>
       </section>
       <section>
-          <div class="container margin_top">
+          <div class="container margin_top shadow-sm">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Itinerary</h1>
@@ -352,7 +352,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-      <div class="container margin_top">
+      <div class="container margin_top shadow-sm">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Services Available</h1>
@@ -460,7 +460,7 @@ use yii\helpers\Url;
       </div>
       </section>
         <section>
-          <div class="container margin_top">
+          <div class="container margin_top shadow-sm">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
             <div id="outer">
@@ -526,7 +526,7 @@ use yii\helpers\Url;
       </section>
 
       <section>
-          <div class="container ">
+          <div class="container shadow-sm">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Accommodation</h1><br><hr>
@@ -563,7 +563,7 @@ use yii\helpers\Url;
      </div>
 
       <section>
-      <div class="container margin_top">
+      <div class="container margin_top shadow-sm">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
             <h1>Customer Reviews</h1><br>

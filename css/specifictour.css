@@ -1,6 +1,6 @@
 *{font-size: 14px;}
 #startimage{
-  height: 500px; 
+  height: 100%; 
     width: 700px;
 }
 .styleimg{
@@ -108,4 +108,7 @@ border-collapse: collapse;
 #map {
   height: 400px;
   width: 100%;
+}
+.topmargin{
+  margin-top: 30px;
 }
