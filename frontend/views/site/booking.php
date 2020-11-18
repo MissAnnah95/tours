@@ -63,16 +63,38 @@
                 
                     <h2> 1. Review Your Dates </h2>
                     <div class="card  bg-light mb-3">
-                <div class="card-body"><h5>Your trip is from: <br></br>Wednesday 11th November to Sunday 15th November</h5><br><a href="#">Change Dates</a></br>
-                <div class="container mt-5 mb-5" style="width: 400px">
+                <div class="card-body"><h5>Your trip is from: <br></br>Wednesday 11th November to Sunday 15th November</h5><br></br>
+                <!-- <div id='calendar'></div> -->
+
+
+                <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Change dates
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      <div id='calendar'></div>      </div>
+    </div>
+  </div>
+
+
+
+      
+                <!-- <div class="container mt-5 mb-5" style="width: 400px">
                     <h3>Choose Date</h3>
-                    <div id="calendar"></div>
-                    <div class="container">
+                    <div id='calendar'></div> -->
+                    <!-- <div class="container">
   <div class="row">
     
-  </div>
+  </div> -->
   <br />
-    <div class="row">
+    <!-- <div class="row">
         <div class='col-sm-12'>
             <div class="form-group">
                 <div class='input-group date' id='datetimepicker1'>
@@ -83,7 +105,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
                     <!-- <input type="text" id="picker" class="form-control">
