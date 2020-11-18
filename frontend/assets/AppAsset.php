@@ -18,6 +18,7 @@ class AppAsset extends AssetBundle
         'css/custom.css',
 
         'css/landing.css',
+        'css/booking.css',
 
     ];
     public $js = [
