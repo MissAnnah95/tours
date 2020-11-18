@@ -32,7 +32,7 @@ use yii\helpers\Url;
 
      <fieldset>
      <div class="accordion shadow-sm" id="collapseExample">
-       
+
        <div class="card-header">
       <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Total Price
