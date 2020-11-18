@@ -27,7 +27,7 @@ use yii\helpers\Url;
   <body class="margin_bottom body">
       <section>
         <div class="container">
-          <div class="row topmargin">
+          <div class="row topmargin ">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
@@ -62,8 +62,6 @@ use yii\helpers\Url;
                   </a>
               </div>
               </div>
-
-
 
               <div class="col-md-4 col-sm-6 shadow-sm">
                 <p class="text-muted">10 Days</p>
@@ -225,7 +223,13 @@ use yii\helpers\Url;
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Map</h1>
-              <div id="map"></div>
+              <!-- <div id="map"></div> -->
+             <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8048.
+              192752709161!2d37.25489853653354!3d-2.6530366917555623!2m3!1f0!2f0!3f0!3m2!1i10
+              24!2i768!4f13.1!3m3!1m2!1s0x18309e7455555555%3A0x8405eed269adf949!2sAmboseli%2
+              0National%20Park!5e0!3m2!1sen!2ske!4v1605698146118!5m2!1sen!2ske" 
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" 
+              aria-hidden="false" tabindex="0"></iframe></p>
             </div>
             </div>
           </div>
@@ -256,12 +260,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_a" aria-expanded="false" aria-controls="collapse_a">
               <b>Day 1: Arrival Cairo – Overnight in Cairo (No Meals)</b>
               </button>
             </h2>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div id="collapse_a" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
             Arrive in Cairo airport, you will be met and assist by our representative who will assist you through the formalities, and then be transferred to your hotel, overnight at your hotel in Cairo.
             </div>
@@ -270,12 +274,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 2: Giza – Pyramids tour – be ready at 07.15 AM to meet your tour guide, Overnight in Cairo (B)</b>
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_b" aria-expanded="false" aria-controls="collapse_b">
+              <b>Day 2: Giza – Pyramids tour – be ready at 07.15 AM to meet your tour guide </b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse_b" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             After breakfast, then you will start the tour by visiting the awe inspiring pyramids and the Sphinx at Giza plateau, visit to papyrus factory  then head to visit the Egyptian museum, and finally to the open market (Khan El Khalili) the Bazaar with the numerous souvenirs shops and the coffee shops. back to your hotel, Overnight Cairo. (B)      </div>
           </div>
@@ -283,12 +287,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 3: Flight to Aswan, Aswan Day tour - Nile cruise and overnight in Aswan (B, L, D)</b>
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_c" aria-expanded="false" aria-controls="collapse_c">
+              <b>Day 3: Flight to Aswan, Aswan Day tour</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse_c" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             After breakfast,  check out from your Cairo hotel. Transfer to Cairo airport, Flight to Aswan, upon arrival, start the day with a morning tour of the famous High Dam of Aswan. Next you will visit the romantic Temple of Philae, visit to perfume place, transfer you to your Nile Cruise, lunch on board, dinner, and overnight on your 5 star standard Nile cruise. (B, L, D)      </div>
           </div>
@@ -296,12 +300,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Day 4: Nile Cruise – Edfu Temple – Kom Ombo Temple – Overnight Nile cruise in Edfu (B, L, D)</b>
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_d" aria-expanded="false" aria-controls="collapse_d">
+              <b>Day 4: Nile Cruise – Edfu Temple – Kom Ombo Temple</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse_d" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             (Optional Early morning trip to Abu Simbel by road with breakfast box - without missing any part of the tour)
       After breakfast, free time then have lunch then enjoy sailing down the fertile bank of the Nile to visit Kom-Ombo Temples. Continue down the Nile to the city of Edfu, dinner and overnight on your 5 stars standard Nile Cruise.       </div>
@@ -310,12 +314,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_e" aria-expanded="false" aria-controls="collapse_e">
               <b>Day 5: Optional tour to Alexandria – Overnight in Cairo(B)</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse_e" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             After breakfast, free time in Cairo, or you have the chance for an Optional tour to Alexandria, Overnight Cairo.      </div>
           </div>
@@ -353,13 +357,13 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                 <b>Accommodation</b>
               </button>
             </h2>
           </div>
 
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
             9 nights in a choice of cabin types, all with en suite facilities, 2 nights hotel in Toronto.
       </div>
@@ -368,12 +372,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
               <b>Guide</b>
               </button>
             </h2>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
             Full complement of qualified Expedition Staff</div>
           </div>
@@ -381,36 +385,36 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <b>Meals</b>        </button>
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              <b>Meals</b>
+            </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             All meals while on the ship Beer and house wine during dinner    </div>
         </div>
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
               <b>Transport</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse4" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-            All transport
-      </div>
+            All transport </div>
         </div>
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
               <b>Flights</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse5" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             International flights are not i ncluded We can include flights from the UK.  Please contact us for a quote.
             </div>
@@ -418,12 +422,12 @@ use yii\helpers\Url;
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
               <b>Insurance</b>
               </button>
             </h2>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapse6" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
             Insurance is not included</div>
         </div>
