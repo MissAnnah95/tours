@@ -11,10 +11,10 @@ use yii\helpers\Url;
 </nav>
 
 
-  <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
     <i class="fa fa-caret-down" aria-hidden="true"></i>
   </a></h1>
-  <div class="collapse" id="collapseExample">
+  <div class="collapse" id="collapseTours">
     <div class="card card-body">
     <p class="font-italic">  Find the right tour for you through Africa. We've got 6135 tours going to Africa, starting from just 3 days in length, and the longest tour is 326 days. The most popular month to go is December, which has the most number of tour departures.</p>
     </div>
@@ -26,20 +26,26 @@ use yii\helpers\Url;
 <div class="container">
 <div class="row">
  <div class="col-2">
-   <fieldset>
+
      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
      <br></br>
 
-     <p>
+     <fieldset>
+     <div class="accordion shadow-sm" id="collapseExample">
+       <div class="col">
+       <div class="card-header">
       <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Total Price
       </button>
-    </p>
+  </div>
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
       </div>
     </div>
+</div>
+</fieldset>
+<br></br>
 
      <div class="accordion shadow-sm" id="accordionExample">
    <div class="card">
