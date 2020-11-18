@@ -62,7 +62,7 @@
             <div class="col-8">
                 
                     <h2> 1. Review Your Dates </h2>
-                    <div class="card  bg-light mb-3">
+                    <div class="card">
 
                 <div class="card-body"><h5>Your trip is from: <br></br>Wednesday 11th November to Sunday 15th November</h5><br></br>
                 <!-- <div id='calendar'></div> -->
@@ -120,7 +120,7 @@
 
 </div> -->
 
-</div>
+
 
 
 
@@ -156,7 +156,7 @@
                     
     
                     <h2> 2. Traveler Details </h2>
-                    <div class="card bg-light mb-3">
+                    <div class="card">
                         <div class="card-body">
   
                             <form>
@@ -200,7 +200,7 @@
                 <div class="col-8">
                     
             <h2> 3. Payment </h2>
-                    <div class="card  bg-light mb-3">
+                    <div class="card">
                         <div class="card-body">
                             <h3>Select your preferred payment option</h3>
                             <div class="accordion" id="accordionExample">
