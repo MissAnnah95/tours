@@ -1,7 +1,11 @@
+
 <?php
+
 use yii\helpers\Url;
 ?>
+
 <div class="container">
+
   <h1> Deals and Discounts in African Tours</h1>
   <hr style="color:gray;background-color:gray">
 </div>
@@ -11,6 +15,7 @@ use yii\helpers\Url;
  <div class="col-3">
      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
      <br></br>
+
      <div class="accordion shadow-sm" id="accordionExample">
    <div class="card">
      <div class="card-header" id="headingOne">
@@ -20,6 +25,7 @@ use yii\helpers\Url;
          </button>
        </h2>
        </div>
+
      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
        <div class="card-body">
          <div class="form-check">
@@ -50,6 +56,7 @@ use yii\helpers\Url;
         <br></br>
         </label>
       </div>
+
        </div>
      </div>
    </div>
@@ -92,6 +99,7 @@ use yii\helpers\Url;
        <h2 class="mb-0">
          <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
            Age Range
+
          </button>
        </h2>
      </div>

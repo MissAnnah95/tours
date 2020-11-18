@@ -30,6 +30,7 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<<<<<<< HEAD
     <div class="top-nav">
     <p class="covid">Covid-20 news ...</p>
     </div>
@@ -87,6 +88,9 @@ AppAsset::register($this);
     ]);
     NavBar::end();
     ?> -->
+=======
+<?php echo $this->render('_nav')?>
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
 
     <div class="">
         <?= Breadcrumbs::widget([

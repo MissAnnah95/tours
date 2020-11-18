@@ -27,6 +27,7 @@ use yii\helpers\Url;
   <body class="margin_bottom body">
       <section>
         <div class="container">
+<<<<<<< HEAD
         <div class="shadow-sm p-3 mb-5 bg-white rounded">
           <div class="row margin_top">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
@@ -51,6 +52,30 @@ use yii\helpers\Url;
                     </div>
                     <div class="carousel-item">
                     <img class="d-block w-100" id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli4.jpg" class="img-fluid" alt="Responsive image">
+=======
+          <div class="row">
+           <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli.jpg" class="img-fluid" alt="Responsive image">
+
+                    </div>
+                    <div class="carousel-item">
+                  <img id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli1.jpg" class="img-fluid" alt="Responsive image">
+
+                    </div>
+                    <div class="carousel-item">
+                    <img id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli2.jpg" class="img-fluid" alt="Responsive image">
+
+                    </div>
+                    <div class="carousel-item">
+                  <img id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli3.jpg" class="img-fluid" alt="Responsive image">
+
+                    </div>
+                    <div class="carousel-item">
+                    <img id = "startimage" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/amboseli4.jpg" class="img-fluid" alt="Responsive image">
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
 
                     </div>
                   </div>
@@ -65,8 +90,14 @@ use yii\helpers\Url;
               </div>
               </div>
 
+<<<<<<< HEAD
               <div class="col-md-4 col-sm-6">
                 <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+
+
+              <div class="col-md-4 col-sm-6">
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
                 <p class="text-muted">10 Days</p>
                 <h3>Kenya One Life Adventures - 10 Days</h3>
 
@@ -79,9 +110,15 @@ use yii\helpers\Url;
                   <b>Age Range :</b><br>
                   <p>18 to 55</p>
                   <b>Tour Id :</b>
+<<<<<<< HEAD
                   <p>163826</p>
                   <p><br>From<br>
                     <span style="color: grey;"><b>US <span style="font-size: 30px;">$686</span></b></span>
+=======
+                  <p>163826</p><br>
+                  <p><br>From<br>
+                    <span style="color: #00b3b3;"><b>US <span style="font-size: 50px;">$686</span></b></span>
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
                   </p>
                 </div>
 
@@ -93,19 +130,29 @@ use yii\helpers\Url;
                 </div>
                 </div>
                 </div>
+<<<<<<< HEAD
                 </div>
                 </div>
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           </div>
         </div>
       </section>
 
       <section>
+<<<<<<< HEAD
       <div class="container ">
+=======
+      <div class="container margin_top">
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
       <!--Carousel Wrapper-->
       <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+<<<<<<< HEAD
       <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
       <h1>Places You'll See</h1>
 
         <!--Controls-->
@@ -116,12 +163,19 @@ use yii\helpers\Url;
         <!--/.Controls-->
 
         <!--Slides-->
+<<<<<<< HEAD
         <div class="carousel-inner " role="listbox">
 
           <!--First slide-->
           <div class="carousel-item active">
               <div class="container">
               <div class="row">
+=======
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
 
             <div class="col-md-3 mb-3">
               <div class="card">
@@ -150,15 +204,23 @@ use yii\helpers\Url;
                   alt="Card image cap">
               </div>
             </div>
+<<<<<<< HEAD
             </div>
             </div>
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           </div>
           <!--/.First slide-->
 
           <!--Second slide-->
           <div class="carousel-item">
+<<<<<<< HEAD
           <div class="container">
               <div class="row">
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/5.jpg"
@@ -186,15 +248,23 @@ use yii\helpers\Url;
                   alt="Card image cap">
               </div>
             </div>
+<<<<<<< HEAD
             </div>
             </div>
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           </div>
           <!--/.Second slide-->
 
           <!--Third slide-->
           <div class="carousel-item">
+<<<<<<< HEAD
           <div class="container">
               <div class="row">
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img class="img-fluid" src="<?= Yii::$app->request->baseUrl ?>/specifictourimages/9.jpg"
@@ -222,12 +292,17 @@ use yii\helpers\Url;
                   alt="Card image cap">
               </div>
             </div>
+<<<<<<< HEAD
               </div>
             </div>
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           </div>
          </div>
         </div>
       </div>
+<<<<<<< HEAD
       </div>
      </div>
       </section>  
@@ -240,16 +315,34 @@ use yii\helpers\Url;
               <h1>Map</h1>
               <div id="map"></div>
               </div>
-            </div>
-            </div>
-          </div>
-      </section>
-
+=======
+     </div>
+    </div>
+      </section>  
+      
       <section>
           <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+              <h1>Map</h1>
+              <div id="map"></div>
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
+            </div>
+            </div>
+          </div>
+      </section>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
+      <section>
+          <div class="container margin_top">
+            <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+<<<<<<< HEAD
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
               <h1>Itinerary</h1>
               <p>Start and end in Amboseli! With the Best of the Scenic Reserved Areas : Tsavo,Amboseli,Rift Valley, you have a 20 days tour package taking you through Amboseli, Mt. Kenyaand 2 other destinations. Best of the Western Arctic: Mombasa and Maasai mara includes flights, an expert guide, meals, transport.</p>
               <div>
@@ -351,12 +444,19 @@ use yii\helpers\Url;
           </div>
         </div>
         
+<<<<<<< HEAD
               </div>
+=======
+      </div>
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
               </div>
             </div>
             </div>
           </div>
+<<<<<<< HEAD
           </div>
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
 
       </section>
 
@@ -364,7 +464,10 @@ use yii\helpers\Url;
       <div class="container margin_top">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+<<<<<<< HEAD
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
               <h1>Services Available</h1>
               <div>
               <div class="accordion" id="accordionExample">
@@ -465,7 +568,10 @@ use yii\helpers\Url;
             </div>
           </div>
               </div>
+<<<<<<< HEAD
               </div>
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             </div>
             </div>
       </div>
@@ -475,7 +581,10 @@ use yii\helpers\Url;
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
             <div id="outer">
+<<<<<<< HEAD
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
               <h1>Planned departure Dates</h1><br>
             <p>
                 <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Planned departure Dates</button>
@@ -534,7 +643,10 @@ use yii\helpers\Url;
               </div>
             </div>
             </div>
+<<<<<<< HEAD
             </div>
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
           </div>
       </section>
 
@@ -542,7 +654,10 @@ use yii\helpers\Url;
           <div class="container ">
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+<<<<<<< HEAD
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
               <h1>Accommodation</h1><br><hr>
               <div class="container ">
                   <div class="row">
@@ -570,7 +685,10 @@ use yii\helpers\Url;
                     </div>
                   </div>
                   </div>
+<<<<<<< HEAD
                   </div>
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             </div>
           </div>
       </section>
@@ -581,7 +699,10 @@ use yii\helpers\Url;
       <div class="container margin_top">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
+<<<<<<< HEAD
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+=======
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             <h1>Customer Reviews</h1><br>
 
             <table class="roundedCorners back_color">
@@ -730,7 +851,11 @@ use yii\helpers\Url;
                 </tr>
                 
               </table>
+<<<<<<< HEAD
               </div>
+=======
+
+>>>>>>> 7739e260f601a99053a5c39f3674c65506195fe7
             </div>
           </div>
          </div>

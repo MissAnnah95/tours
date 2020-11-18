@@ -27,13 +27,3 @@ nav ul li a i {
 .logo span{
   color: #85C9E9;
 }
-
-.carousel-item img{
-  opacity: 2;
-}
-
-
-.search input{
-  border: 2px gray solid;
-  background: none;
-}

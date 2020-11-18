@@ -1,4 +1,8 @@
 *{font-size: 14px;}
+#startimage{
+  height: 500px; 
+    width: 700px;
+}
 .styleimg{
     height: auto; 
     width: auto; 
@@ -74,9 +78,9 @@ img.img-fluid{
   position: relative;
   margin-left: 270px;
 }
-/* .margin_top{
+.margin_top{
   margin-top: 55px;
-} */
+}
 
 .margin_bottom{
   margin-bottom: 55px;
@@ -104,12 +108,4 @@ border-collapse: collapse;
 #map {
   height: 400px;
   width: 100%;
-}
-#startimage{
-  height: 100%; 
-    width: 700px;
-}
-.to-border_radius{
-  border-radius: 1%;
-  height: 100% !important;
 }
