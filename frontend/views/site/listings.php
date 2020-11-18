@@ -1,3 +1,24 @@
+
+
+<?php
+
+use yii\helpers\Url;
+?>
+
+<div class="container">
+
+  <h1> Deals and Discounts in African Tours</h1>
+  <hr style="color:gray;background-color:gray">
+</div>
+
+<!-- Listings Filter -->
+<div class="container">
+<div class="row">
+
+ <div class="col-3">
+
+     <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
+     <br></br>
 <?php
 use yii\helpers\Url;
 ?>
@@ -11,6 +32,7 @@ use yii\helpers\Url;
  <div class="col-3">
      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
      <br></br>
+
      <div class="accordion shadow-sm" id="accordionExample">
    <div class="card">
      <div class="card-header" id="headingOne">
@@ -20,6 +42,10 @@ use yii\helpers\Url;
          </button>
        </h2>
        </div>
+
+
+
+
      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
        <div class="card-body">
          <div class="form-check">
@@ -50,6 +76,9 @@ use yii\helpers\Url;
         <br></br>
         </label>
       </div>
+
+
+
        </div>
      </div>
    </div>
@@ -92,6 +121,8 @@ use yii\helpers\Url;
        <h2 class="mb-0">
          <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
            Age Range
+
+
          </button>
        </h2>
      </div>
@@ -174,6 +205,12 @@ use yii\helpers\Url;
    </div>
  </div>
   </div>
+
+
+
+
+
+
 <div class="col-9">
      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
            <div class="card" style="width: 18rem;">
@@ -182,21 +219,38 @@ use yii\helpers\Url;
              </div>
            </div>
             <div class="col p-4 d-flex flex-column position-static">
+
+
+              <div class="mb-1 text-muted">Hiking</div>
+
+              <h3 class="mb-0">Gede Ruins
+
+
               <div class="mb-1 text-muted">Hiking</div>
               <h3 class="mb-0">Gede Ruins
+
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <hr style="color:gray;background-color:gray"></h3>
+
+
+
               <p class="card-text mb-auto">"This is a wider card with supporting text below as a natural lead-in to additional content."</p>
               <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
               <strong class="d-inline-block mb-2 text-body">Age Range</strong>
               <strong class="d-inline-block mb-2 text-body">Price</strong>
               <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
             </div>
+
+
           </div>
+
+
+          </div>
+
           <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div class="card" style="width: 18rem;">
                   <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t2.jpeg" class="card-img-top" alt="...">
@@ -204,21 +258,38 @@ use yii\helpers\Url;
                   </div>
                 </div>
                  <div class="col p-4 d-flex flex-column position-static">
+
+
+                   <div class="mb-1 text-muted">Hiking</div>
+
+                   <h3 class="mb-0">Gede Ruins
+
+
                    <div class="mb-1 text-muted">Hiking</div>
                    <h3 class="mb-0">Gede Ruins
+
                      <i class="fa fa-star-o" aria-hidden="true"></i>
                      <i class="fa fa-star-o" aria-hidden="true"></i>
                      <i class="fa fa-star-o" aria-hidden="true"></i>
                      <i class="fa fa-star-o" aria-hidden="true"></i>
                      <i class="fa fa-star-o" aria-hidden="true"></i>
                      <hr style="color:gray;background-color:gray"></h3>
+
+
+
                    <p class="card-text mb-auto">"This is a wider card with supporting text below as a natural lead-in to additional content."</p>
                    <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
                    <strong class="d-inline-block mb-2 text-body">Age Range</strong>
                    <strong class="d-inline-block mb-2 text-body">Price</strong>
                    <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
                  </div>
+
+
                </div>
+
+
+               </div>
+
                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                      <div class="card" style="width: 18rem;">
                        <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t4.jpg" class="card-img-top" alt="...">
@@ -226,21 +297,37 @@ use yii\helpers\Url;
                        </div>
                      </div>
                       <div class="col p-4 d-flex flex-column position-static">
+
+
                         <div class="mb-1 text-muted">Hiking</div>
+
                         <h3 class="mb-0">Gede Ruins
+
+                       <div class="mb-1 text-muted">Hiking</div>
+                        <h3 class="mb-0">Gede Ruins
+
                           <i class="fa fa-star-o" aria-hidden="true"></i>
                           <i class="fa fa-star-o" aria-hidden="true"></i>
                           <i class="fa fa-star-o" aria-hidden="true"></i>
                           <i class="fa fa-star-o" aria-hidden="true"></i>
                           <i class="fa fa-star-o" aria-hidden="true"></i>
                           <hr style="color:gray;background-color:gray"></h3>
+
+
+
                         <p class="card-text mb-auto">"This is a wider card with supporting text below as a natural lead-in to additional content."</p>
                         <strong class="d-inline-block mb-2 text-body">Tour Operator</strong>
                         <strong class="d-inline-block mb-2 text-body">Age Range</strong>
                         <strong class="d-inline-block mb-2 text-body">Price</strong>
                         <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
                       </div>
+
+
                     </div>
+
+
+                    </div>
+
     </div>
   </div>
 </div>
