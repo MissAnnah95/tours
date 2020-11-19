@@ -25,7 +25,7 @@ use yii\helpers\Url;
 <!-- Listings Filter -->
 <div class="container">
 <div class="row">
- <div class="col-2">
+ <div class="col-3">
 
      <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
      <br></br>
@@ -214,7 +214,7 @@ use yii\helpers\Url;
 </fieldset>
   </div>
 
-<div class="col-10">
+<div class="col-9">
   <div>
      <section>
       <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -222,11 +222,12 @@ use yii\helpers\Url;
      </section>
    </div>
 
+
+
      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
            <div class="card" style="width: 18rem;">
              <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t5.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-             </div>
+                <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
            </div>
             <div class="col p-4 d-flex flex-column position-static">
               <div class="mb-1 text-muted">Hiking</div>
@@ -244,11 +245,12 @@ use yii\helpers\Url;
               <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
             </div>
           </div>
+
           <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div class="card" style="width: 18rem;">
                   <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t2.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                  </div>
+                  <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
+
                 </div>
                  <div class="col p-4 d-flex flex-column position-static">
                    <div class="mb-1 text-muted">Hiking</div>
@@ -269,8 +271,7 @@ use yii\helpers\Url;
                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                      <div class="card" style="width: 18rem;">
                        <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t4.jpg" class="card-img-top" alt="...">
-                       <div class="card-body">
-                       </div>
+                       <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
                      </div>
                       <div class="col p-4 d-flex flex-column position-static">
                         <div class="mb-1 text-muted">Hiking</div>

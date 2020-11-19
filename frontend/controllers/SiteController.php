@@ -247,6 +247,7 @@ class SiteController extends Controller
         return $this->render('listings');
     }
 
+
     /**
      * Resend verification email
      *
