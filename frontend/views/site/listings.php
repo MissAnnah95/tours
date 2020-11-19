@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Url;
 ?>
+
 <div class="container">
   <nav >
   <ol class="breadcrumb background">
@@ -9,6 +10,7 @@ use yii\helpers\Url;
   </ol>
 </nav>
 
+<<<<<<< HEAD
     <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
         <i class="fa fa-caret-down" aria-hidden="true"></i>
     </a></h1>
@@ -28,6 +30,31 @@ use yii\helpers\Url;
      <fieldset>
      <div class="accordion shadow-sm" id="collapseExample">
        <div class="col">
+=======
+
+  <h1> Deals and Discounts in African Tours &nbsp;&nbsp;<a class="btn btn-light" data-toggle="collapse" href="#collapseTours" role="button" aria-expanded="false" aria-controls="collapseTours">
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+  </a></h1>
+  <div class="collapse" id="collapseTours">
+    <div class="card card-body">
+    <p class="font-italic">  Find the right tour for you through Africa. We've got 6135 tours going to Africa, starting from just 3 days in length, and the longest tour is 326 days. The most popular month to go is December, which has the most number of tour departures.</p>
+    </div>
+  </div>
+  <hr style="color:gray;background-color:gray">
+
+</div>
+<!-- Listings Filter -->
+<div class="container">
+<div class="row">
+ <div class="col-3">
+
+     <button type="button" class="btn btn-primary btn-lg"><i class="fa fa-filter"></i>Sort & Filter </button>
+     <br></br>
+
+     <fieldset>
+     <div class="accordion shadow-sm" id="collapseExample">
+
+>>>>>>> Newlistings
        <div class="card-header">
       <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Total Price
@@ -38,9 +65,16 @@ use yii\helpers\Url;
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
       </div>
     </div>
+<<<<<<< HEAD
 </div>
 </fieldset>
 <br></br>
+=======
+
+</fieldset>
+<br></br>
+
+>>>>>>> Newlistings
      <div class="accordion shadow-sm" id="accordionExample">
    <div class="card">
      <div class="card-header" id="headingOne">
@@ -183,6 +217,8 @@ use yii\helpers\Url;
        </div>
      </div>
    </div>
+
+
    <div class="card">
      <div class="card-header" id="headingThree">
        <h2 class="mb-0">
@@ -205,18 +241,28 @@ use yii\helpers\Url;
  </div>
 </fieldset>
   </div>
+<<<<<<< HEAD
 <div class="col-10">
+=======
+
+<div class="col-9">
+>>>>>>> Newlistings
   <div>
      <section>
       <i class="fa fa-star-o" aria-hidden="true"></i>
        <p class="font-weight-bold">250+ tours in Africa with 13,335 reviews</p>
      </section>
    </div>
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> Newlistings
      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
            <div class="card" style="width: 18rem;">
              <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t5.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-             </div>
+                <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
            </div>
             <div class="col p-4 d-flex flex-column position-static">
               <div class="mb-1 text-muted">Hiking</div>
@@ -234,11 +280,12 @@ use yii\helpers\Url;
               <a href="<?= Url::to(['/specifictour/tour'])?>" class="stretched-link">View Tour</a>
             </div>
           </div>
+
           <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div class="card" style="width: 18rem;">
                   <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t2.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                  </div>
+                  <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
+
                 </div>
                  <div class="col p-4 d-flex flex-column position-static">
                    <div class="mb-1 text-muted">Hiking</div>
@@ -259,8 +306,7 @@ use yii\helpers\Url;
                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                      <div class="card" style="width: 18rem;">
                        <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t4.jpg" class="card-img-top" alt="...">
-                       <div class="card-body">
-                       </div>
+                       <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/map.PNG" class="card-img-top" alt="...">
                      </div>
                       <div class="col p-4 d-flex flex-column position-static">
                         <div class="mb-1 text-muted">Hiking</div>

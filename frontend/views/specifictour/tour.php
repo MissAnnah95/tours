@@ -223,13 +223,7 @@ use yii\helpers\Url;
             <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <h1>Map</h1>
-              <!-- <div id="map"></div> -->
-             <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8048.
-              192752709161!2d37.25489853653354!3d-2.6530366917555623!2m3!1f0!2f0!3f0!3m2!1i10
-              24!2i768!4f13.1!3m3!1m2!1s0x18309e7455555555%3A0x8405eed269adf949!2sAmboseli%2
-              0National%20Park!5e0!3m2!1sen!2ske!4v1605698146118!5m2!1sen!2ske" 
-              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" 
-              aria-hidden="false" tabindex="0"></iframe></p>
+              <div id="map"></div>
             </div>
             </div>
           </div>

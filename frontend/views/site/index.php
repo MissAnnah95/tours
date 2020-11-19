@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 use yii\helpers\Url;
 
+
 $this->title = 'Tours';
 ?>
 <div id="carouselExampleIndicators" class="carousel slide pb-3" data-ride="carousel" >
