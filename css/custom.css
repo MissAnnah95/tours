@@ -30,3 +30,8 @@ aside{
     background-color: #FBFCFC;
     border-radius: 0.25rem;
 }
+
+.card-outline {
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+}
