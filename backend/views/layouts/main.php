@@ -21,62 +21,32 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+        <!--== FAV ICON ==-->
+    <link rel="shortcut icon" href="<?= Yii::$app->request->baseUrl ?>/assets/theme/images/fav.ico">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Quicksand:300,400,500" rel="stylesheet">
+   
     <?php $this->head() ?>
-    
 </head>
 <body>
 <?php $this->beginBody() ?>
-
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'Listings', 'url' => ['/listings/index']],
-        ['label' => 'Dashboard', 'url' => ['/dashboard/dashboard']],
-    ];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => $menuItems,
-    ]);
-    NavBar::end();
-    ?>
-
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
-        <?= $content ?>
-    </div>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
-
+<section id="container">
+  <?= $this->render('header.php')?>
+  <?= $this->render('aside.php')?>
+        
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+            <?= Html::encode($this->title) ?>
+                  <?= Breadcrumbs::widget([
+                      'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                   ]) ?>
+             <?= Alert::widget() ?>
+             <?= $content ?>
+        </section>
+    </section>
+</section>
 <?php $this->endBody() ?>
 </body>
 </html>

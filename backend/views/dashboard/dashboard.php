@@ -1,3 +1,7 @@
+<?php
+
+use yii\helpers\Url;
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -51,6 +55,22 @@
       iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
       content:'Mgahinga Gorilla National Park, Uganda'
       },
+      {params:{lat: 36.457741, lng: 	7.423325},
+      iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+      content:'Guelma, Algeria Geographic Information'
+      },
+      {params:{lat: 18.000000	, lng: 9.000000},
+      iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+      content:'Air and Tenere Natural Reserve, Niger'
+      },
+      {params:{lat: 6.666667, lng: 9.166667},
+      iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+      content:'Obudu mountain resort., Nigeria'
+      },
+      {params:{lat:29.9773, lng: 31.1325},
+      iconImage:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+      content:'The Pyramids of Giza, Giza, Egypt'
+      },
       ];
 
       function addMarker(props) {
@@ -85,66 +105,52 @@
   </head>
   <body>
 
-  <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">CPU Traffic</span>
-              <span class="info-box-number">90<small>%</small></span>
+  <div class="row shadow-sm">
+    <div class="col-md-3" >
+    <a class="active" href="<?= Url::to(['messaging/inbox'])?>">
+    <div class="mini-stat clearfix">        
+            <span class="mini-stat-icon orange"><i class="fa fa-gavel"></i></span>
+            <div class="mini-stat-info">
+                <span>320</span>
+                Today's Total Bookings
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-red"><i class="fa fa-google-plus"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Likes</span>
-              <span class="info-box-number">41,410</span>
+    </div>
+  </a>
+    </div>
+    <div class="col-md-3">
+    <a class="active" href="<?= Url::to(['messaging/inbox'])?>">
+        <div class="mini-stat clearfix">
+            <span class="mini-stat-icon tar"><i class="fa fa-tag"></i></span>
+            <div class="mini-stat-info">
+                <span>22,450</span>
+                Total Users
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
         </div>
-        <!-- /.col -->
-
-        <!-- fix for small devices only -->
-        <div class="clearfix visible-sm-block"></div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Sales</span>
-              <span class="info-box-number">760</span>
+    </a>
+    </div>
+    <div class="col-md-3">
+    <a class="active" href="<?= Url::to(['messaging/inbox'])?>">
+        <div class="mini-stat clearfix">
+            <span class="mini-stat-icon pink"><i class="fa fa-money"></i></span>
+            <div class="mini-stat-info">
+                <span>34,320</span>
+                Total Destinations
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
         </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">New Members</span>
-              <span class="info-box-number">2,000</span>
+    </a>
+    </div>
+    <div class="col-md-3">
+    <a class="active" href="<?= Url::to(['messaging/inbox'])?>">
+        <div class="mini-stat clearfix">
+            <span class="mini-stat-icon green"><i class="fa fa-eye"></i></span>
+            <div class="mini-stat-info">
+                <span>720</span>
+                Service Prividers
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
         </div>
-        <!-- /.col -->
-      </div>
-
-
-    <div id="map"></div>
+    </a>
+    </div>
+</div>
+    <div id="map" class="map shadow-sm"></div>
   </body>
 </html>
