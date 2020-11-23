@@ -4,12 +4,12 @@ namespace frontend\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use frontend\models\Listings;
+use frontend\models\Profile;
 
 /**
- * ListingsSearch represents the model behind the search form of `frontend\models\Listings`.
+ * ProfileSearch represents the model behind the search form of `frontend\models\Profile`.
  */
-class ListingsSearch extends Listings
+class ProfileSearch extends Profile
 {
     /**
      * {@inheritdoc}
@@ -17,8 +17,8 @@ class ListingsSearch extends Listings
     public function rules()
     {
         return [
-            [['listingId', 'listingTypeId', 'userId', 'basePrice', 'isApackage'], 'integer'],
-            [['listingName', 'createdAt'], 'safe'],
+            [['profileId', 'userId', 'countryId', 'phone'], 'integer'],
+            [['isCompany', 'isSupplier', 'profileImagePath', 'fullNames', 'dateOfBirth', 'address', 'status'], 'safe'],
         ];
     }
 
@@ -40,7 +40,7 @@ class ListingsSearch extends Listings
      */
     public function search($params)
     {
-        $query = Listings::find();
+        $query = Profile::find();
 
         // add conditions that should always apply here
 
@@ -58,15 +58,19 @@ class ListingsSearch extends Listings
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'listingId' => $this->listingId,
-            'listingTypeId' => $this->listingTypeId,
+            'profileId' => $this->profileId,
             'userId' => $this->userId,
-            'basePrice' => $this->basePrice,
-            'isApackage' => $this->isApackage,
-            'createdAt' => $this->createdAt,
+            'countryId' => $this->countryId,
+            'phone' => $this->phone,
+            'dateOfBirth' => $this->dateOfBirth,
         ]);
 
-        $query->andFilterWhere(['like', 'listingName', $this->listingName]);
+        $query->andFilterWhere(['like', 'isCompany', $this->isCompany])
+            ->andFilterWhere(['like', 'isSupplier', $this->isSupplier])
+            ->andFilterWhere(['like', 'profileImagePath', $this->profileImagePath])
+            ->andFilterWhere(['like', 'fullNames', $this->fullNames])
+            ->andFilterWhere(['like', 'address', $this->address])
+            ->andFilterWhere(['like', 'status', $this->status]);
 
         return $dataProvider;
     }
