@@ -23,6 +23,20 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+<!-- DATE-PICKER -->
+<link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+
+<!-- STYLE CSS -->
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+
+		<script src="js/main.js"></script>
 
 </head>
 <body>
