@@ -11,3 +11,27 @@
 aside{
   display: block;
 }
+.nav-style{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+
+  /* the rest of your styling */
+}
+
+.breadcrumb {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #FBFCFC;
+    border-radius: 0.25rem;
+}
+
+.card-outline {
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+}

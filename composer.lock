@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e444d24b46511f7ab6430be5e4436d4",
+    "content-hash": "285f8e3f4ca924171f11b9698af178b8",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
+                "url": "git@github.com:twbs/bootstrap.git",
                 "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
             },
             "dist": {
@@ -32,7 +32,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "git@github.com:RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -934,6 +934,51 @@
                 }
             ],
             "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "techlab/smartwizard",
+            "version": "v5.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/techlab/jquery-smartwizard.git",
+                "reference": "14806a79eb4db75ad71723cb6cb5ccfd7e2f585f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/techlab/jquery-smartwizard/zipball/14806a79eb4db75ad71723cb6cb5ccfd7e2f585f",
+                "reference": "14806a79eb4db75ad71723cb6cb5ccfd7e2f585f",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dipu Raj",
+                    "email": "hello.techlab@gmail.com",
+                    "homepage": "http://dipu.me"
+                }
+            ],
+            "description": "The awesome jQuery step wizard plugin",
+            "homepage": "http://techlaboratory.net/jquery-smartwizard",
+            "keywords": [
+                "bootstrap",
+                "jquery",
+                "jquery-plugin",
+                "step",
+                "ui",
+                "wizard",
+                "wizard plugin"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/dipuraj",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-07-10T15:40:42+00:00"
         },
         {
             "name": "yiisoft/yii2",

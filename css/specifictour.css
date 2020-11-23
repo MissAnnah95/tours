@@ -1,12 +1,12 @@
 *{font-size: 14px;}
 #startimage{
-  height: 100%; 
+  height: 100%;
     width: 100%;
 }
 .styleimg{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
+    height: auto;
+    width: auto;
+    max-width: 300px;
     max-height: 300px;
 }
 @media (min-width: 768px) {
@@ -14,14 +14,14 @@
     float: left;
     width: 25%;
     max-width: 100%; } }
-    
+
 .carousel-multi-item-2 .card img {
 border-radius: 2px; }
 
 .panel-title {
   position: relative;
 }
-  
+
 .panel-title::after {
     content: "\f107";
     color: #333;
@@ -62,7 +62,7 @@ b {
   font-size: 18px;
 }
 img.img-fluid{
-  height: 120px; 
+  height: 120px;
   width: auto;
 }
 
@@ -86,15 +86,15 @@ img.img-fluid{
   margin-bottom: 55px;
 }
 
-table.roundedCorners { 
+table.roundedCorners {
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 13px; 
+  border-radius: 13px;
   border-spacing: 0;
   }
-table.roundedCorners td, 
-table.roundedCorners th { 
+table.roundedCorners td,
+table.roundedCorners th {
   border-bottom: 1px solid rgb(219, 219, 233);
-  padding: 10px; 
+  padding: 10px;
   }
 table.roundedCorners tr:last-child > td {
   border-bottom: none;
