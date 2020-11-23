@@ -45,3 +45,27 @@ use yii\widgets\ActiveForm;
 
 </div>
 </div>
+
+<?= $form->field($model, 'userId')->textInput() ?>
+
+<?= $form->field($model, 'isCompany')->textInput(['maxlength' => true]) ?>
+
+<?= $form->field($model, 'isSupplier')->textInput(['maxlength' => true]) ?>
+
+<?= $form->field($model, 'countryId')->textInput() ?>
+
+<?= $form->field($model, 'profileImagePath')->textInput() ?>
+
+<?= $form->field($model, 'fullNames')->textInput(['maxlength' => true]) ?>
+
+<?= $form->field($model, 'phone')->textInput() ?>
+
+<?= $form->field($model, 'dateOfBirth')->textInput() ?>
+
+<?= $form->field($model, 'address')->textarea(['rows' => 6]) ?>
+
+<?= $form->field($model, 'status')->textInput() ?>
+
+<div class="form-group">
+    <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+</div>

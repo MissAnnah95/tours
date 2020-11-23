@@ -14,19 +14,19 @@ use yii\bootstrap4\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <div class="container">
-    <div class="row justify-content-end">
+    <div class="row">
     <div class="col-12">
       <div class="col-sm-4">
       <div class="card-outline shadow-sm">
 
-        <div class="row justify-content-center" style="font-size:120px;padding: 10px">
+        <div class="row justify-content-center" style="font-size:120px;padding: 20px">
           <div class="card" style="width: 18rem;">
             <img src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t5.jpg" class="card-img-top" alt="...">
           </div>
       </div>
         <div class="row justify-content-center" style="font-size:0.83em;">
           <div>
-            <div class="custom-file mr-20px ml-20px">
+            <div class="custom-file">
                <input type="file" class="custom-file-input" id="uploadProfile">
                <label class="custom-file-label" for="uploadProfile">Choose file</label>
              </div>
@@ -38,11 +38,14 @@ use yii\bootstrap4\ActiveForm;
                <!-- Phone Number -->
                <?= $form->field($model, 'phone')->textInput() ?>
 
-               <!-- Email address -->
-               <?= $form->field($model, 'address')->textarea(['rows' => 6]) ?>
+               <!--Date of Birth-->
+               <?= $form->field($model, 'dateOfBirth')->textInput() ?>
 
                <!-- Address -->
                <?= $form->field($model, 'address')->textarea(['rows' => 6]) ?>
+
+               <!-- Status -->
+               <?= $form->field($model, 'status')->textInput() ?>
 
           </div>
         </div>
@@ -56,15 +59,23 @@ use yii\bootstrap4\ActiveForm;
         <br></br>
         <div class="card-footer">
           <div class="text" style="font-size: 1.2rem">
-          <p><strong>Sam Smith Confirmed</strong></p>
-        </div>
-          <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="form-group mb-20px">
+                <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+            </div>
+            <br></br>
         </div>
       </div>
     </div>
 
 
     </div>
+
+<div class="col-sm-8">
+    <div >
+      <!-- Company name -->
+      <?= $form->field($model, 'isCompany')->textInput(['maxlength' => true]) ?>
+    </div>
+  </div>
 
     </div>
     </div>
@@ -91,6 +102,7 @@ use yii\bootstrap4\ActiveForm;
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
+
 
     <?php ActiveForm::end(); ?>
 
