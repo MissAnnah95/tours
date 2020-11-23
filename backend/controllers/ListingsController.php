@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use common\models\Locations;
+use common\models\Images;
 
 /**
  * ListingsController implements the CRUD actions for Listings model.
@@ -81,7 +82,7 @@ class ListingsController extends Controller
         $model = new Locations();
         
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['addimage']);
+            return $this->redirect(['addimages']);
         }
         
         return $this->render('addlocation', [
@@ -90,15 +91,15 @@ class ListingsController extends Controller
         ]);
     }
 
-    public function actionAddImage($imageId)
+    public function actionAddimages($imageId)
     {
-        $model = new Image();
+        $model = new Images();
         
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['index']);
         }
         
-        return $this->render('addimage', [
+        return $this->render('addimages', [
             'model' => $model,
             'imageId'=>$imageId
         ]);
