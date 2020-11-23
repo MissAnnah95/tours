@@ -8,6 +8,7 @@ use common\models\ListingsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use common\models\Locations;
 
 /**
  * ListingsController implements the CRUD actions for Listings model.
@@ -67,7 +68,7 @@ class ListingsController extends Controller
         $model = new Listings();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->listingId]);
+            return $this->redirect(['addlocation', 'listingId' => $model->listingId]);
         }
 
         return $this->render('create', [
@@ -75,6 +76,33 @@ class ListingsController extends Controller
         ]);
     }
 
+    public function actionAddlocation($listingId)
+    {
+        $model = new Locations();
+        
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['addimage']);
+        }
+        
+        return $this->render('addlocation', [
+            'model' => $model,
+            'listingId'=>$listingId
+        ]);
+    }
+
+    public function actionAddImage($imageId)
+    {
+        $model = new Image();
+        
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        }
+        
+        return $this->render('addimage', [
+            'model' => $model,
+            'imageId'=>$imageId
+        ]);
+    }
     /**
      * Updates an existing Listings model.
      * If update is successful, the browser will be redirected to the 'view' page.
