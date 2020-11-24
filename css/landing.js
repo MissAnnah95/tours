@@ -17,3 +17,15 @@
 $('#blogCarousel').carousel({
     interval: 3000
 });
+
+function initMap() {
+  const kenya = { lat: -2.634830794, lng: 37.250498998 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 8,
+    center: kenya,
+  });
+  const marker = new google.maps.Marker({
+    position: kenya,
+    map: map,
+  });
+}

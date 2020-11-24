@@ -9,25 +9,12 @@ use yii\helpers\Url;
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script>
-      function initMap() {
-        const kenya = { lat: -2.634830794, lng: 37.250498998 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
-          center: kenya,
-        });
-        const marker = new google.maps.Marker({
-          position: kenya,
-          map: map,
-        });
-      }
-    </script>
   </head>
 
   <body class="margin_bottom body">
       <section>
         <div class="container">
-          <div class="row topmargin ">
+          <div class="row topmargin shadow-sm">
            <div class="col-md-8 col-sm-6 col-xs-12 b_packages">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
