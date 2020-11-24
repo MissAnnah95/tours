@@ -13,6 +13,7 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         //'css/site.css',
+        'css/custom.css',
         
         /**
          * Bucket Admin Assets
@@ -75,6 +76,8 @@ class AppAsset extends AssetBundle
         //Custom CSS
     ];
     public $js = [
+        'js/custom.js',
+        'js/map.js',
         /**
          * jQuery Assets
          * (If loaded here prevents modal popup from working correctly)

@@ -50,6 +50,28 @@ AppAsset::register($this);
     </section>
 </section>
 <?php $this->endBody() ?>
+
+<script type="text/javascript">
+    function resetActive(event, percent) {
+        $(".progress-bar").css("width", percent + "%").attr("aria-valuenow", percent);
+        $(".progress-completed").text(percent + "%");
+
+        $("div").each(function () {
+            if ($(this).hasClass("activestep")) {
+                $(this).removeClass("activestep");
+            }
+        });
+
+        if (event.target.className == "col-md-4") {
+            $(event.target).addClass("activestep");
+        }
+        else {
+            $(event.target.parentNode).addClass("activestep");
+        }
+    }
+</script>
+
+
 </body>
 </html>
 <?php $this->endPage() ?>
