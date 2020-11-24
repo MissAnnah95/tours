@@ -38,13 +38,15 @@
           start: '2020-12-13',
           end: '2020-12-18'
         },
-        
+
       ]
     });
 
     calendar.render();
   });
-  
+
   $('#myModal').on('shown.bs.modal', function () {
     $("#calendar").fullCalendar('render');
  });
+
+ 
