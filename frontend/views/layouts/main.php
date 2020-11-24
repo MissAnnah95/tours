@@ -9,6 +9,7 @@ use yii\bootstrap4\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use yii\helpers\Url;
 
 AppAsset::register($this);
 ?>
@@ -66,7 +67,7 @@ AppAsset::register($this);
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
-                                <a class="dropdown-item" href="#">My account</a>
+                                <a class="dropdown-item" href="<?= Url::to(['/profile/index'])?>">My account</a>
                                 <a class="dropdown-item" href="#">Log out</a>
                                 <a class="dropdown-item" href="#">Change Profile</a>
                             </div>
