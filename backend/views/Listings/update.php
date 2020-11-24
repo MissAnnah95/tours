@@ -3,14 +3,12 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\Listings */
+/* @var $model common\models\Listings */
 
-$this->title = Yii::t('app', 'Update Listings: {name}', [
-    'name' => $model->listingId,
-]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Listings'), 'url' => ['index']];
+$this->title = 'Update Listings: ' . $model->listingId;
+$this->params['breadcrumbs'][] = ['label' => 'Listings', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->listingId, 'url' => ['view', 'id' => $model->listingId]];
-$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
+$this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="listings-update">
 
