@@ -12,6 +12,13 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+
+    'modules' => [
+        'rbac' => [
+            'class' => 'yii2mod\rbac\Module',
+        ],
+    ],
+
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
@@ -47,7 +54,7 @@ return [
 
         'assetManager' => [
             'appendTimestamp' => true
-        ]
+        ],
 
     ],
     'params' => $params,
