@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use common\models\User;
 use frontend\models\Profile;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\models\ProfileSearch */
@@ -19,12 +20,12 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
 
-    <div class="d-flex">
+    <div class="container">
       <div class = "row">
 
       <div class = "col-3">
         <div class="card border shadow-sm" style="width: 18rem;">
-          <img class="card-img-top" src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t2.jpeg" alt="Card image cap">
+          <img class="card-img-top" src="<?= Yii::$app->request->baseUrl ?>/listingsimages/profile.jpg" alt="Card image cap">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -32,7 +33,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <br></br>
 
         <div class="card border shadow-sm" style="width: 18rem;">
-          <img class="card-img-top" src="<?= Yii::$app->request->baseUrl ?>/listingsimages/t2.jpeg" alt="Card image cap">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -50,43 +50,43 @@ $this->params['breadcrumbs'][] = $this->title;
 								<tr>
 									<td>User Name</td>
 									<td>:</td>
-									<td>Sam Anderson</td>
+									<td>Maryann Kamau</td>
 								</tr>
-                <br></br>
+                <hr>
 
 								<tr>
 									<td>Password</td>
 									<td>:</td>
 									<td>mypasswordtour</td>
 								</tr>
-                <br></br>
+                <hr>
 								<tr>
 									<td>Email</td>
 									<td>:</td>
 									<td>sam_anderson@gmail.com</td>
 								</tr>
-                <br></br>
+                <hr>
 
 								<tr>
 									<td>Phone</td>
 									<td>:</td>
 									<td>+01 4561 3214</td>
 								</tr>
-                <br></br>
+                <hr>
 
 								<tr>
 									<td>Date of birth</td>
 									<td>:</td>
-									<td>03 Jun 1990</td>
+									<td>03 Jun 1980</td>
 								</tr>
-                <br></br>
+                <hr>
 
 								<tr>
 									<td>Address</td>
 									<td>:</td>
 									<td>8800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</td>
 								</tr>
-                <br></br>
+                <hr>
 								<tr>
 									<td>Status</td>
 									<td>:</td>
@@ -100,7 +100,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
 
 </p>
-                <a href="#" class="btn btn-primary">Edit Profile</a>
+                <a href="<?= Url::to(['/profile/create'])?>" class="btn btn-primary">Edit Profile</a>
               </div>
             </div>
 
@@ -108,16 +108,14 @@ $this->params['breadcrumbs'][] = $this->title;
       <div class="col-3">
         <div class="card border text-center" style="margin-right:20px">
               <div class="card-header1">
-                Notification
+                Notifications
               </div>
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
-              <div class="card-footer text-muted">
-                2 days ago
-              </div>
+
             </div>
       </div>
     </div>
