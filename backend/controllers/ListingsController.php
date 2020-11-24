@@ -3,17 +3,18 @@
 namespace backend\controllers;
 
 use Yii;
-use frontend\models\Listings;
-use backend\models\ListingSearch;
+use common\models\Listings;
+use common\models\ListingsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use common\models\Locations;
+use common\models\Images;
 
 /**
- * ListingController implements the CRUD actions for Listings model.
+ * ListingsController implements the CRUD actions for Listings model.
  */
-class ListingController extends Controller
+class ListingsController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -36,7 +37,7 @@ class ListingController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new ListingSearch();
+        $searchModel = new ListingsSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -66,49 +67,21 @@ class ListingController extends Controller
     public function actionCreate()
     {
         $model = new Listings();
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['addlocation', 'listingId' => $model->listingId]);
+                        
+            return $this->redirect(['addlocation',  'listingId' => $model->listingId]);
         }
-
         return $this->render('create', [
             'model' => $model,
         ]);
     }
     
-    public function actionAddimages($listingId){
-        
-        $model = New Images();
-        
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['addlocation', 'listingId' => $model->listingId]);
-        }
-        
-        return $this->render('addimages', [
-            'model' => $model,
-        ]);
-    }
-    
-    public function actionAddlocation($listingId){
-        
-        $model = New Locations();
-        
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['addlocation', 'listingId' => $model->listingId]);
-        }
-        
-        return $this->render('addlocation', [
-            'model' => $model,
-        ]);
-        
-    }
-
     public function actionAddlocation($listingId)
     {
         $model = new Locations();
-        
+        var_dump(Yii::$app->request->post());
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['addimage']);
+            return $this->redirect(['addimages', 'listingId' => $model->listingId]);
         }
         
         return $this->render('addlocation', [
@@ -117,19 +90,38 @@ class ListingController extends Controller
         ]);
     }
 
-    public function actionAddImage($imageId)
-    {
-        $model = new Image();
+    // public function actionAddimages($imageId)
+    // {
+    //     $model = new Image();
         
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['index']);
+    //     if ($model->load(Yii::$app->request->post()) && $model->save()) {
+    //         return $this->redirect(['index']);
+    //     }
+        
+    //     return $this->render('addimage', [
+    //         'model' => $model,
+    //         'imageId'=>$imageId
+    //     ]);
+    // }
+
+
+public function actionAddimages()
+{
+    $model = new \common\models\Images();
+
+    if ($model->load(Yii::$app->request->post())) {
+        if ($model->validate()) {
+            // form inputs are valid, do something here
+            return;
         }
-        
-        return $this->render('addimage', [
-            'model' => $model,
-            'imageId'=>$imageId
-        ]);
     }
+
+    return $this->render('addimages', [
+        'model' => $model,
+    ]);
+}
+
+
     /**
      * Updates an existing Listings model.
      * If update is successful, the browser will be redirected to the 'view' page.
@@ -177,6 +169,6 @@ class ListingController extends Controller
             return $model;
         }
 
-        throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }

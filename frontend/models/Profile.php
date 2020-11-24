@@ -26,8 +26,7 @@ use Yii;
  */
 class Profile extends \yii\db\ActiveRecord
 {
-
-    public $profile;
+    
     /**
      * {@inheritdoc}
      */
@@ -64,8 +63,8 @@ class Profile extends \yii\db\ActiveRecord
             'isSupplier' => 'Is Supplier',
             'countryId' => 'Country ID',
             'profileImagePath' => 'Profile Image Path',
-            'fullNames' => 'Your Names',
-            'phone' => 'Phone Number',
+            'fullNames' => 'Full Names',
+            'phone' => 'Phone',
             'dateOfBirth' => 'Date Of Birth',
             'address' => 'Address',
             'status' => 'Status',

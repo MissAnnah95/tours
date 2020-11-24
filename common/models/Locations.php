@@ -9,11 +9,12 @@ use Yii;
  *
  * @property int $locationId
  * @property int $listingId
- * @property int $regionId
+ * @property int|null $regionId
  * @property int $countryId
- * @property int $cityId
- * @property float $latitude
- * @property float $longitude
+ * @property int|null $cityId
+ * @property float|null $latitude
+ * @property float|null $longitude
+ * @property string|null $address
  *
  * @property Cities $city
  * @property Country $country
@@ -36,9 +37,10 @@ class Locations extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['listingId', 'regionId', 'countryId', 'cityId', 'latitude', 'longitude'], 'required'],
+            [['listingId', 'countryId'], 'required'],
             [['listingId', 'regionId', 'countryId', 'cityId'], 'integer'],
             [['latitude', 'longitude'], 'number'],
+            [['address'], 'string'],
             [['cityId'], 'exist', 'skipOnError' => true, 'targetClass' => Cities::className(), 'targetAttribute' => ['cityId' => 'cityId']],
             [['countryId'], 'exist', 'skipOnError' => true, 'targetClass' => Country::className(), 'targetAttribute' => ['countryId' => 'countryId']],
             [['listingId'], 'exist', 'skipOnError' => true, 'targetClass' => Listings::className(), 'targetAttribute' => ['listingId' => 'listingId']],
@@ -59,6 +61,7 @@ class Locations extends \yii\db\ActiveRecord
             'cityId' => 'City ID',
             'latitude' => 'Latitude',
             'longitude' => 'Longitude',
+            'address' => 'Address',
         ];
     }
 

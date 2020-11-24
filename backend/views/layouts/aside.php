@@ -14,9 +14,9 @@ use yii\helpers\Url;
                         <span>Listings</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="<?= Url::to(['listing/index'])?>">All listings</a></li>
-                        <li><a href="<?= Url::to(['listing/create'])?>">Add listing</a></li>
-                        <li><a href="#">All Listing Category</a></li>
+                        <li><a href="<?= Url::to(['listings/index'])?>">All listings</a></li>
+                        <li><a href="<?= Url::to(['listings/create'])?>">Add listing</a></li>
+                        <li><a href="#">All Listing Categories</a></li>
                         <li><a href="#">Add Listing Category</a></li>
                     </ul>
                 </li>

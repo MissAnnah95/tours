@@ -2,17 +2,14 @@
 
 use yii\helpers\Html;
 
-
 /* @var $this yii\web\View */
-/* @var $model frontend\models\Profile */
+/* @var $model common\models\Listings */
 
-$this->title = 'Create Profile';
-$this->params['breadcrumbs'][] = ['label' => 'Profiles', 'url' => ['index']];
+$this->title = 'Create Listings';
+$this->params['breadcrumbs'][] = ['label' => 'Listings', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
-
-
 ?>
-<div class="profile-create">
+<div class="listings-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

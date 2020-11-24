@@ -8,7 +8,6 @@ use frontend\models\ProfileSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\web\UploadedFile;
 
 /**
  * ProfileController implements the CRUD actions for Profile model.
@@ -66,7 +65,6 @@ class ProfileController extends Controller
     public function actionCreate()
     {
         $model = new Profile();
-
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->profileId]);

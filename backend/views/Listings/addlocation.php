@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 
 </div> -->
 
-
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnULnIcTW4J_9NxGeHhLSVLme6Ba36AE&libraries=places"></script>
 
 <div class="container">
     <div class="row">
@@ -48,11 +48,11 @@ use yii\widgets\ActiveForm;
             </div>
             <div class="col-md-4 activestep" onclick="javascript: resetActive(event, 60);">
                 <span class="fa fa-map-marker"></span>
-                <p>Location Details</p>
+                <p>Select Location</p>
             </div>
             <div id="last" class="col-md-4" onclick="javascript: resetActive(event, 100);">
                 <span class="fa fa-picture-o"></span>
-                <p>Add Images</p>
+                <p>Add Image</p>
             </div>
       </div>
       </div>
@@ -89,11 +89,46 @@ use yii\widgets\ActiveForm;
 				                		
 				                        </div>
 				                    </div>
+
+                                    <div class="form-group">
+				                        <label class="col-md-4 control-label" for="longitude">City </label>
+				                        <div class="col-md-8">
+                                        <?= $form->field($model, 'city')->textInput(['maxlength' => true, 'id'=>'city', 'class'=>'form-control city'])->label(false)?>
+				                		
+				                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+				                        <label class="col-md-4 control-label" for="street">Address:</label>
+				                        <div class="col-md-8">
+				                        
+				                        	 <?= $form->field($model, 'address')->textInput(['maxlength' => true, 'id'=>'address', 'class'=>'form-control address'])->label(false) ?>
+				                            
+				                        </div>
+				                    </div>
+
+                                    <!-- <div class="form-group">
+				                        <label class="col-md-4 control-label" for="longitude">Region </label>
+				                        <div class="col-md-8">
+                                        <?= $form->field($model, 'regionId') ?>
+				                		
+				                        </div>
+				                    </div> -->
+
+                                    </div>
+						   
+				                
+				            </div>
+				           
+				             	<div class="col-md-8 col-sm-6">
+				             	    <input id="searchInput" class="input-controls" type="text" placeholder="Search locations"/>
+                                     <div class="map" id="map" style="width: 100%; height: 550px;"></div>
+								</div>
 				                   
 						</div><br>
 						<div class="row">
 						    <div class="form-group col-md-12">
-                                <?= Html::submitButton('Next <span class="fa fa-forward"></span>', ['class' => 'btn btn-warning pull-right']) ?>
+                            <?= Html::submitButton('Save', ['class' => 'btn btn-success  pull-right col-xs-2']) ?>
                             </div>
 						</div>	
         		</div>

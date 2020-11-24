@@ -35,3 +35,11 @@ aside{
   border: 1px solid #C4C4C4;
   border-radius: 10px;
 }
+
+.card-header1 {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:#071156;;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: white;
+}
